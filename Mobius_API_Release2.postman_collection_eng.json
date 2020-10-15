@@ -1,0 +1,5147 @@
+{
+	"info": {
+		"_postman_id": "395ed53c-26e0-42a5-a84b-5f5ba42d426a",
+		"name": "Mobius_API_Release2(eng)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AE",
+			"item": [
+				{
+					"name": "AE CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"disabled": true
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123aaghjhk45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=2"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							]
+						},
+						"description": "Equivalent to AE CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "AE CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"disabled": true
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234dfadf5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=2"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AE CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"disabled": true
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234dfadf5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=2"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AE CREATE with Result Content set to 3 (Hierarchical address + attributes)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"disabled": true
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=2"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AE RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234asdfadd5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170713200332320Bdfl"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AE UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12dsfdsf345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170713200332320Bdfl"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:ae\": {\n    \"lbl\": [\"API_demo\", \"test\"]\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AE DELETE with Result content set to 0 (nothing)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234sdafadsfgtrfg5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170713200332320Bdfl"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "AccessControlPolicy",
+			"item": [
+				{
+					"name": "AccessContrlPolicy CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12fhfh345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=1"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							]
+						},
+						"description": "Equivalent to AccessControlPolicyCREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "AccessContrlPolicy CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12fhfh345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=1"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AccessContrlPolicy CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12fhfh345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=1"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AccessContrlPolicy CREATE with Result Content set to 3 (Hieararchical address + address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12fhfh345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=1"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AccessControlPolicy UPDATE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12dsfdsaf345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "/Mobius"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n  \"m2m:acp\": { \n\t\"pv\": { \n\t\t\"acr\":[\n\t    {\n\t    \t\"acor\": [ \n\t\t\t\t\"ByW7eOgcBW\",\n\t\t\t\t\"ryeubi\",\n\t\t\t\t\"guest_groupA\",\n\t\t\t\t\"guest_groupB\",\n\t\t\t\t\"student_eduA\",\n\t\t\t\t\"student_eduB\"\n\t\t\t], \n\t\t\t\"acop\": 63\n\t    }] \n    }, \n\t\"pvs\": { \n\t\t\"acr\":[{ \n\t\t\t\"acor\": [ \n\t\t\t\t\"S20170705065326333aZtE\",\n\t\t\t\t\"ryeubi\",\n\t\t\t\t\"ByW7eOgcBW\"\n\t\t\t], \n\t\t\t\"acop\":63 \n\t\t}] \n\t} \n } \n}\n\n\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/admin_acp?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"admin_acp"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AccessControlPolicy UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12dsfdsaf345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "/Mobius"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n  \"m2m:acp\": { \n\t\"pv\": { \n\t\t\"acr\":[\n\t    {\n\t    \t\"acor\": [ \n\t\t\t\t\"ByW7eOgcBW\",\n\t\t\t\t\"S20170717074825768bp2l\",\n\t\t\t\t\"guest_groupA\",\n\t\t\t\t\"guest_groupB\",\n\t\t\t\t\"student_eduA\",\n\t\t\t\t\"student_eduB\"\n\t\t\t], \n\t\t\t\"acop\": 63\n\t    }] \n    }, \n\t\"pvs\": { \n\t\t\"acr\":[{ \n\t\t\t\"acor\": [ \n\t\t\t\t\"S20170705065326333aZtE\",\n\t\t\t\t\"S20170717074825768bp2l\",\n\t\t\t\t\"ryeubi\",\n\t\t\t\t\"ByW7eOgcBW\"\n\t\t\t], \n\t\t\t\"acop\":63 \n\t\t}] \n\t} \n } \n}\n\n\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/admin_acp?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"admin_acp"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AccessControlPolicy RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234sdsfa5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/admin_acp?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"admin_acp"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AccessControlPolicy DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsfsdfs5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/admin_acp?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"admin_acp"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "CSEBase",
+			"item": [
+				{
+					"name": "CSEBase RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CSEBase RETRIEVE with Result Content set to 4, and Limit set to 10",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=4&lim=10",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "4"
+								},
+								{
+									"key": "lim",
+									"value": "10"
+								}
+							]
+						},
+						"description": "A CSEBase RETRIEVE request initalized by an AE (S20170717074825768bp2l) \nAssume this AE has been registered with Mobius and has permission to retrieve CSEBase of Mobius"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Container",
+			"item": [
+				{
+					"name": "Container CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12aadftret345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							]
+						},
+						"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "Container CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12aadftret345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Container CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12aadftret345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Container CREATE with Result Content set to 3 (Hieararchical address+attributes)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12aadftret345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Container RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234er5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Container RETRIEVE with Result Content set to 4 (Attribute + Child resources)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123adsfadsf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170705065326333aZtE"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=4",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Container UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"disabled": true
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123aedghf34"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:cnt\" : {\n\t    \"lbl\": [\"heartbeat1\"],\n\t    \"mni\":4\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Container DELETE with Result content set to 0 (nothing)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dfd45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "ContentInstance",
+			"item": [
+				{
+					"name": "ContentInstance CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"description": "\n"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123sdfgd45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/vnd.onem2m-res+xml; ty=4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:cin\n    xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <con>ON</con>\n</m2m:cin>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/LB0051TP0053/action/Execute",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"LB0051TP0053",
+								"action",
+								"Execute"
+							]
+						},
+						"description": "Equivalent to contentInstance CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "ContentInstance CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123sdfgd45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=4"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"m2m:cin\": {\n        \"con\": \"on\"\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ContentInstance CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123sdfgd45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=4"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"m2m:cin\": {\n        \"con\": \"on\"\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ContentInstance CREATE with Result Content set to 3 (Hieararchical address+attribute)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123sdfgd45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json; ty=4"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"m2m:cin\": {\n        \"con\": \"on\"\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Latest contentInstance RETRIEVE",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test/latest",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ContentInstance DISCOVERY under Container",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1dfada2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?fu=1&ty=4",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "ty",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ContentInstance DISCOVERY under AE (S20170717074825768bp2l)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1dfada234aaadf5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?fu=1&ty=4",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "ty",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Latest contentInstance DELETE with Result content set to 0 (nothing)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "127834dfdf5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test/latest",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Discovery",
+			"item": [
+				{
+					"name": "Discovery with resourceType (container) and limit filter conditions copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "fds345435"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?fu=1&ty=3&lim=20",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "ty",
+									"value": "3"
+								},
+								{
+									"key": "lim",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Discovery with resourceType (contentInstance) and limit filter conditions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "fds345435"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?fu=1&ty=4&lim=20",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "ty",
+									"value": "4"
+								},
+								{
+									"key": "lim",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Discovery with stateTagBigger, and stateTagSmaller, and resourceType filter conditions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "54643hfshsfdh"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?fu=1&ty=3&stb=0&sts=5",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "ty",
+									"value": "3"
+								},
+								{
+									"key": "stb",
+									"value": "0"
+								},
+								{
+									"key": "sts",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Discovery with createdAfter, and createdBefore, resourceType, and limit filter conditions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "234gjhjrgdfgfd"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?fu=1&crb=20170905T072322&cra=20170101T072322&lim=20&ty=4",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "crb",
+									"value": "20170905T072322"
+								},
+								{
+									"key": "cra",
+									"value": "20170101T072322"
+								},
+								{
+									"key": "lim",
+									"value": "20"
+								},
+								{
+									"key": "ty",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Discovery with sizeBelow, and sizeAbove, resourceType, and limit  filter conditions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "sdaf343545"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?fu=1&ty=4&sza=2&szb=100&lim=20",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "ty",
+									"value": "4"
+								},
+								{
+									"key": "sza",
+									"value": "2"
+								},
+								{
+									"key": "szb",
+									"value": "100"
+								},
+								{
+									"key": "lim",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Discovery with createdBefore, and createdAfter, resourceType, limit, sizeBelow, and sizeAbove filter conditions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "sdaf343545"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?fu=1&ty=4&sza=3&szb=100&crb=20170905T072322&cra=20170601T072322&lim=20",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "ty",
+									"value": "4"
+								},
+								{
+									"key": "sza",
+									"value": "3"
+								},
+								{
+									"key": "szb",
+									"value": "100"
+								},
+								{
+									"key": "crb",
+									"value": "20170905T072322"
+								},
+								{
+									"key": "cra",
+									"value": "20170601T072322"
+								},
+								{
+									"key": "lim",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Discovery with modifiedSince, and unmodifiedSince filter conditions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "sdaf343545"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?fu=1&us=20270105T072322&ms=20170201T072322&lim=20",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "fu",
+									"value": "1"
+								},
+								{
+									"key": "us",
+									"value": "20270105T072322"
+								},
+								{
+									"key": "ms",
+									"value": "20170201T072322"
+								},
+								{
+									"key": "lim",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Group",
+			"item": [
+				{
+					"name": "Group CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "123gsyuuiuihi45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=9"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp2\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\"\n\t    ],\n\t    \"mnm\":10\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "123gsyuuiuihi45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=9"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp1\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-20170717101652553qHHl\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-20170717101652068VKn6\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-20170717101651482Y3sm\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-201707171016496707Olg\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094048139l0cS\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094047154sdiG\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094047714TwoG\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094046045Bn0D\"\n\t    \t\n\t    ],\n\t    \"mnm\":10\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "123gsyuuiuihi45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=9"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp2\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\"\n\t    ],\n\t    \"mnm\":10\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group CREATE with Result Content set to 3 (Hieararchical address+Attributes)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "123gsyuuiuihi45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=9"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp2\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\"\n\t    ],\n\t    \"mnm\":10\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "43564hgfhf"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/grp1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"grp1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group UPDATE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "785fhsfgg"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:grp\" : {\n\n\t    \"mnm\":50\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/grp1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"grp1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "aefd123gsyuuiuihi45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:grp\" : {\n\t    \"mnm\":100\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/grp1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"grp1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/grp1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"grp1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Group member RETRIEVE with fanOutPoint (PENDING)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234bvluikjn5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/grp1/fopt",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"grp1",
+								"fopt"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "LocationPolicy",
+			"item": [
+				{
+					"name": "LocationPolicy CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12345fsdfdsf"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=10"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LocationPolicy CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12345fsdfdsf"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=10"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LocationPolicy RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12345fasesdfdsf"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/locply1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"locply1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LocationPolicy DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12345fasesdfdsf"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/locply1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"locply1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LocationPolicy CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-M2M-RI",
+								"value": "12345fsdfdsf"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=10"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "MgmtObj - Battery",
+			"item": [
+				{
+					"name": "Battery mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "45tytyjhhj5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:bat\": {\n\t\t\"rn\": \"bat_mgo2\",\n\t\t\"lbl\": [\"battery\"],\n\t\t\"mgd\": 1006,\n\t\t\"btl\": 99,\n\t\t\"bts\": 1\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Battery  mgmtObj RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "retre67576"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/bat_mgo1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"bat_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Battery mgmtObj CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "45tytyjhhj5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:bat\": {\n\t\t\"rn\": \"bat_mgo2\",\n\t\t\"lbl\": [\"battery\"],\n\t\t\"mgd\": 1006,\n\t\t\"btl\": 99,\n\t\t\"bts\": 1\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Battery  mgmtObj UPDATE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "gfhgh657567"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:bat\": {\n    \"lbl\": [\"key1\"],\n    \"btl\": 99,\n    \"bts\": 1\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/bat_mgo1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"bat_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Battery mgmtObj DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "auyisdtg43e5re"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/bat_mgo1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"bat_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "MgmtObj - DeviceCapacity",
+			"item": [
+				{
+					"name": "DeviceCapability mgmtObj CREATE with Result Content set to 2 (Hierarchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "fg54654sadf"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:dvc\": {\n    \"rn\": \"dvc_mgo1\",\n    \"lbl\": [\"key3\"],\n    \"mgd\": 1008,\n    \"can\": \"test dvc\",\n    \"att\": true,\n    \"cas\": {\n      \"can\": \"http://203.253.128.151:7579/action\",\n      \"sus\": 1\n    },\n    \"cus\": true\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeviceCapability mgmtObj RETRIEVE",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345DSFSAD"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/dvc_mgo1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"dvc_mgo1"
+							]
+						},
+						"description": "Equivalent to deviceCapability mgmtObj RETRIEVE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "DeviceCapability mgmtObj UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "asdf343"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:dvc\": {\n    \"lbl\": [\"key3\"],\n    \"can\": \"test dvc\",\n    \"att\": true,\n    \"cas\": {\n      \"can\": \"http://203.253.128.151:7579/action\",\n      \"sus\": 1\n    },\n    \"cus\": true\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/dvc_mgo1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"dvc_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeviceCapacity mgmtObj DELETE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "auyisdtg43e5re"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/dvc_mgo1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"dvc_mgo1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "MgmtObj - DeviceInfo",
+			"item": [
+				{
+					"name": "DeviceInfo mgmtObj CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234hb5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:dvi\": {\n\t\t\"rn\": \"dvi_mgo1\",\n\t\t\"lbl\": [\"key2\"],\n\t\t\"mgd\": 1007,\n\t\t\"dbl\": \"test dvi\",\n\t\t\"man\": \"keti\",\n\t\t\"mod\": \"aqua\",\n\t\t\"dty\": \"aqua system\",\n\t\t\"fwv\": \"1.0.0\",\n\t\t\"swv\": \"1.0.0\",\n\t\t\"hwv\": \"1.0.0\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							]
+						},
+						"description": "Equivalent to DeviceInfo CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "DeviceInfo mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234hb5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:dvi\": {\n\t\t\"rn\": \"dvi_mgo1\",\n\t\t\"lbl\": [\"key2\"],\n\t\t\"mgd\": 1007,\n\t\t\"dbl\": \"test dvi\",\n\t\t\"man\": \"keti\",\n\t\t\"mod\": \"aqua\",\n\t\t\"dty\": \"aqua system\",\n\t\t\"fwv\": \"1.0.0\",\n\t\t\"swv\": \"1.0.0\",\n\t\t\"hwv\": \"1.0.0\"\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeviceInfo mgmtObj RETRIEVEwith Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "dag435435"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/dvi_mgo1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"dvi_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeviceInfo mgmtObj UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "asdfdsd343af"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:dvi\": {\n    \"lbl\": [\"key2\"],\n    \"dbl\": \"test dvi\",\n    \"man\": \"keti\",\n    \"mod\": \"aqua\",\n    \"dty\": \"aqua system\",\n    \"fwv\": \"1.0.0\",\n    \"swv\": \"1.0.0\",\n    \"hwv\": \"1.0.0\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/dvi_mgo1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"dvi_mgo1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeviceInfo mgmtObj DELETE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "asdtg43e5re"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/dvi_mgo1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"dvi_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "MgmtObj - Firmware",
+			"item": [
+				{
+					"name": "Firmware  mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "adg456547567"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:fwr\": {\n    \"rn\": \"fwr_mgo1\",\n    \"lbl\": [\"key1\"],\n    \"mgd\": 1001,\n    \"vr\": \"1.0.0\",\n    \"fwnnam\": \"test\",\n    \"url\": \"http://203.253.128.151:7579/firmware\",\n    \"ud\": true\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Firmware  mgmtObj CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "adg456547567"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:fwr\": {\n    \"rn\": \"fwr_mgo1\",\n    \"lbl\": [\"key1\"],\n    \"mgd\": 1001,\n    \"vr\": \"1.0.0\",\n    \"fwnnam\": \"test\",\n    \"url\": \"http://203.253.128.151:7579/firmware\",\n    \"ud\": true\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							]
+						},
+						"description": "Equivalent to Firmware CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "Firmware mgmtObj RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "adsfew5345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/fwr_mgo1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"fwr_mgo1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Firmware UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "tytr657343"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:fwr\": {\n\n    \"lbl\": [\"key2\"]\n\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/fwr_mgo1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"fwr_mgo1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Firmware mgmtObj DELETE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "asdtg43e5re"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/fwr_mgo1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"fwr_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "MgmtObj - Reboot",
+			"item": [
+				{
+					"name": "Reboot mgmtObj CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12ibioj345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:rbo\": {\n    \"rn\": \"rbo_mgo1\",\n    \"lbl\": [\"key4\"],\n    \"mgd\": 1009,\n    \"rbo\": false\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							]
+						},
+						"description": "Equivalent to Reboot CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "Reboot mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12ibioj345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=13"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:rbo\": {\n    \"rn\": \"rbo_mgo1\",\n    \"lbl\": [\"key4\"],\n    \"mgd\": 1009,\n    \"rbo\": false\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reboot mgmtObj RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "adsfasg2343"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/rbo_mgo1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"rbo_mgo1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reboot mgmtObj UPDATEwith Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "3434rtyr4tds"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:rbo\": {\n    \"lbl\": [\"key5\"],\n    \"rbo\": false\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/rbo_mgo1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"rbo_mgo1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reboot mgmtObj DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "asdtg43e5re"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1/rbo_mgo1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1",
+								"rbo_mgo1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Node",
+			"item": [
+				{
+					"name": "Node CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "trytr6757"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=14"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:nod\": {\n    \"rn\": \"nod1\",\n    \"ni\": \"urn:gsma:imei:90420156-025763-0;svn=42\",\n    \"hcl\":\"/Mobius\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Equivalent to node CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "Node CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "trytASDFr6757"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=14"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:nod\": {\n    \"rn\": \"nod1\",\n    \"ni\": \"urn:gsma:imei:90420156-025763-0;svn=42\",\n    \"hcl\":\"/Mobius\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Node RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1dfag2hjhjfgdsgds345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Node UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "rewthgdh345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:nod\": {\n\t\t\"lbl\": [\"node_lbl\"]\n\t\n\t}\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Node DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "FGHFH435FDS"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nod1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nod1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "RemoteCSE",
+			"item": [
+				{
+					"name": "remoteCSE CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsfdsa45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=16"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube_rose\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Equivalent to remoteCSE CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "remoteCSE CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsfdsa45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=16"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube_rose\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "remoteCSE CREATE with Result Content set to 2 (hierarchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsfdsa45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=16"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "remoteCSE CREATE with Result Content set to 3 (Hierarchical address + attributes)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsfdsa45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=16"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "remoteCSE RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345gfhgh"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nCube?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nCube"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "remoteCSE UPDATE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1235zews45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:csr\" : {\n\t    \"poa\": [\"http://203.254.173.104:7580/notification\", \"mqtt://203.253.128.151/:rosemary\"]\n    }\n}\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nCube?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nCube"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "remoteCSE UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1235zews45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "SOrigin"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:csr\" : {\n\t    \"poa\": [\"http://203.254.173.104:7580/notification\", \"mqtt://203.253.128.151/:rosemary\"]\n    }\n}\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nCube?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nCube"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "remoteCSE DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123fdgds45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "/mobius-yt"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/nCube02?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"nCube02"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "SemanticDescriptor",
+			"item": [
+				{
+					"name": "SemanticDescriptor CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12dfsgsdf345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=24"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"m2m:smd\" : {\n        \"dcrp\"\t: \"application/rdf+json:1\",\n        \"rn\"\t: \"smd1\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Equivalent to semanticDescriptorCREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "SemanticDescriptor CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12dfsgsdf345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=24"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"m2m:smd\" : {\n        \"dcrp\"\t: \"application/rdf+json:1\",\n        \"rn\"\t: \"smd1\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SemanticDescriptor RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1234asdfasd5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test",
+								"smd1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SemanticDescriptor UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1bhgjh2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"m2m:smd\" : {\n        \"lbl\" : [\"semantic_descriptor\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test",
+								"smd1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SemanticDescriptor UPDATE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1bhgjh2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"m2m:smd\" : {\n        \"lbl\" : [\"semantic_descriptor\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test",
+								"smd1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SemanticDescriptor DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12DFDASF345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test",
+								"smd1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Subscription",
+			"item": [
+				{
+					"name": "Subcription CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dfsaf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=23"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"LB0051TP0053_data\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://203.253.128.161/SMisemeonji?ct=xml\"]\n    }\n}\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/LB0051TP0053/action/Data",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"LB0051TP0053",
+								"action",
+								"Data"
+							]
+						},
+						"description": "Equivalent to subscription CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "Subcription_xml",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml"
+							},
+							{
+								"key": "locale",
+								"value": "ko"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "/0.2.481.1.21160310105204806"
+							},
+							{
+								"key": "X-M2M-NM",
+								"value": "heartbeat1",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.onem2m-res+xml; ty=4"
+							},
+							{
+								"key": "nmtype",
+								"value": "short"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:cin\n    xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <con>{message_type: \"node.cmd\", command_type: \"control\", request_value: \"ON\"}</con>\n</m2m:cin>"
+						},
+						"url": {
+							"raw": "http://203.253.128.161:7579/Mobius/9a8b6957ec25-node13/switch1_command",
+							"protocol": "http",
+							"host": [
+								"203",
+								"253",
+								"128",
+								"161"
+							],
+							"port": "7579",
+							"path": [
+								"Mobius",
+								"9a8b6957ec25-node13",
+								"switch1_command"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subcription CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dfsaf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=23"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"sub1\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://localhost/0.2.481.1.7579\"]\n    }\n}\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subcription CREATE with Result Content set to 2 (Hieararchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dfsaf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=23"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"sub1\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://localhost/0.2.481.1.7579\"]\n    }\n}\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subcription CREATE with Result Content set to 3 (Hieararchical address+Attributes)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dfsaf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=23"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"sub1\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://localhost/0.2.481.1.7579\"]\n    }\n}\n\n\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subscription UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsafadsf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "Superman"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"m2m:sub\" : {\r\n\t\t\t\"nu\": [\r\n            \t\t\"mqtt://127.0.0.1/S_LB0051SR0055?ct=xml\"\r\n        \t\t]\r\n    }\r\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/LB0051TP0053/action/Execute/S_LB0051TP0053",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"LB0051TP0053",
+								"action",
+								"Execute",
+								"S_LB0051TP0053"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subscription DELETE with Result content set to 0 (nothing)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12fgfhgh345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/cnt_test/sub1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"cnt_test",
+								"sub1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subscription RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/justin/ss_clone/sub1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"justin",
+								"ss_clone",
+								"sub1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TimeSeries",
+			"item": [
+				{
+					"name": "TimeSeries CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1aedfggf2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=29"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:ts\" : {\n\t\t\"rn\": \"ts1\",\n\t\t\"pei\":1,\n\t\t\"mdd\":true,\n\t\t\"mdt\":1,\n\t    \"lbl\": [\"timeSeries_label\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Equivalent to timeSeries CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeries CREATE with Result Content set to 2 (Hierarchical address)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1aedfggf2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=29"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:ts\" : {\n\t\t\"rn\": \"ts1\",\n\t\t\"pei\":1,\n\t\t\"mdd\":true,\n\t\t\"mdt\":1,\n\t    \"lbl\": [\"timeSeries_label\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=2",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeries CREATE with Result Content set to 3 (Hierarchical address+attributes)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1aedfggf2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=29"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:ts\" : {\n\t\t\"rn\": \"ts1\",\n\t\t\"pei\":1,\n\t\t\"mdd\":true,\n\t\t\"mdt\":1,\n\t    \"lbl\": [\"timeSeries_label\"]\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test?rcn=3",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeries UPDATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsafadsf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:ts\" : {\n\t\t\"mdt\":2,\n\t    \"lbl\": [\"timeSeries_label\", \"heartbeat1\"]\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeries UPDATE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123dsafadsf45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\t\"m2m:ts\" : {\n\t\t\"mdt\":2,\n\t    \"lbl\": [\"timeSeries_label\", \"heartbeat1\"]\n    }\n}"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeries RETRIEVE with Result Content set to 1 (Attributes)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "12345t87y87y"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeries DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123466giygi5"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TimeSeriesInstance",
+			"item": [
+				{
+					"name": "TimeSeriesInstance CREATE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1kvuytcuijvh2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=30"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:tsi\" : {\n\t    \"dgt\": \"20170717T123456\",\n\t    \"con\":\"DATA_TACK\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=1",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Equivalent to timeSeriesInstance CREATE with Result Content set to 1 (Attributes)"
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeriesInstance CREATE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "1kvuytcuijvh2345"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json;ty=30"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"m2m:tsi\" : {\n\t    \"dgt\": \"20170717T123456\",\n\t    \"con\":\"DATA_TACK\"\n    }\n}\n"
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Latest timeSeriesInstance RETRIEVE",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123bjkjlk45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1/latest",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TimeSeriesInstance DISCOVERY",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123bjkjlk45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1/latest",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Oldest timeSeriesInstance DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123buigblkjhbk45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1/oldest?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1",
+								"oldest"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Latest  timeSeriesInstance DELETE with Result Content set to 0 (NOTHING)",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "X-M2M-RI",
+								"value": "123buigblkjhbk45"
+							},
+							{
+								"key": "X-M2M-Origin",
+								"value": "S20170717074825768bp2l"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{mp_url}}/{{cb}}/ae_test/ts1/latest?rcn=0",
+							"host": [
+								"{{mp_url}}"
+							],
+							"path": [
+								"{{cb}}",
+								"ae_test",
+								"ts1",
+								"latest"
+							],
+							"query": [
+								{
+									"key": "rcn",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
