@@ -1,0 +1,4837 @@
+{
+	"id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+	"name": "Mobius_API_Release2(eng)",
+	"description": "",
+	"order": [],
+	"folders_order": [
+		"eff95f1b-1929-ada0-0c22-8b74c4afbf7e",
+		"6c14a261-1685-62a5-41d7-28e65742dc90",
+		"2e6a2b42-0b33-dafa-7bb1-4203c1cb7c5b",
+		"c011281b-61ab-2589-fb38-6b285659a9bd",
+		"21f65215-2d23-f07c-a0c7-f5c44225fe85",
+		"68ec2165-5644-46eb-70f2-a096a7809d54",
+		"6e863a45-62da-573b-8c69-46e620b92451",
+		"390c7800-5eb0-1478-44e8-688a32ed36e2",
+		"367f9833-2b5b-b895-2e9b-72f73d9430e2",
+		"19c2114f-c978-c05f-c0c9-09e4125b61f8",
+		"537b0616-6912-8fb3-f36f-39d7c853717d",
+		"06cbe36d-a874-c714-82ff-ddeb75fbb703",
+		"7e7d36e2-7324-9274-38c0-4c5a5b8afa7f",
+		"114a9609-ba14-5c80-cebe-89656efff7e5",
+		"8940d8a5-74f3-e708-1f02-5c189ab8120d",
+		"b196c600-e0ac-13b7-3528-4755a851788b",
+		"a4cabb10-669f-829e-8c9f-6f8b4f37a805",
+		"46866889-5604-5833-cec6-3b007461f116",
+		"3d6e3370-059d-e6f7-ea10-2809d546f418"
+	],
+	"folders": [
+		{
+			"id": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e",
+			"name": "AE",
+			"description": "",
+			"order": [
+				"33507494-8eb7-8c75-b1b7-b8c6ebaba33d",
+				"087d1a45-69a9-99df-ccf9-ee20ae011b52",
+				"65d6df08-b96c-f877-0e87-57e1c9798c54",
+				"01fc9b4d-1210-47d7-0357-be82937449af",
+				"d974185c-0901-25ec-5676-3622a599f8e0",
+				"54bf3238-4e83-4b65-3001-7f46df85b7f7",
+				"f7f364f5-d9b7-af0e-01cd-e47c4d445048"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "6c14a261-1685-62a5-41d7-28e65742dc90",
+			"name": "AccessControlPolicy",
+			"description": "",
+			"order": [
+				"cc291612-c99e-478c-9b20-527094432c67",
+				"5a1a7b7a-09aa-7aab-3ddb-6c6bbd53b58d",
+				"afbbab29-3598-be6b-7368-9a2af6848afb",
+				"31c89af2-6c5d-c9e6-d01f-9dcbbe56fde3",
+				"52fc5e18-3a34-2eca-35e0-60293712c05b",
+				"87eb7ce3-2de7-9370-dcdc-db69555e6708",
+				"d9d2e492-0ea0-8c20-580f-58445c4acbf8",
+				"8e843e9b-f3e8-d554-f803-32dabb316bfb"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "2e6a2b42-0b33-dafa-7bb1-4203c1cb7c5b",
+			"name": "CSEBase",
+			"description": "",
+			"order": [
+				"20ea0c88-4a9c-b0a4-0a3e-5141175d6550",
+				"1f5cccc9-6cd3-fbba-809b-266150082fe2"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "c011281b-61ab-2589-fb38-6b285659a9bd",
+			"name": "Container",
+			"description": "",
+			"order": [
+				"28380369-626a-9206-1e1f-9603b16236d5",
+				"33f841dc-3af3-cf61-102a-948fb677aaf1",
+				"f2d4ff9a-5059-13fc-716f-05548e7b38d4",
+				"6fecf37e-0c19-9797-a86a-852e8aa5309a",
+				"1b7bc556-edb8-5030-270e-dd6ba346e2b6",
+				"977ab4fd-311f-b715-f3f0-3466cd050ea7",
+				"c42c767f-b302-c4ff-6c88-ae50a753a25a",
+				"feb46852-6839-c6bd-140c-b0dfb8961508"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "21f65215-2d23-f07c-a0c7-f5c44225fe85",
+			"name": "ContentInstance",
+			"description": "",
+			"order": [
+				"804e6087-e724-a651-6c64-002a4f505abb",
+				"d01396d5-130a-49c5-72bf-916023f776a0",
+				"beac1c9a-1a21-5035-4793-b8aa850ac122",
+				"7e572410-2245-25d4-7d78-49cfa7af63a0",
+				"8702acb0-5058-9545-ac64-0c37ae44b3ae",
+				"4d18bf3a-33bc-a496-c881-db442d90e62e",
+				"9b31f331-5bc6-9090-25bf-f37f514aa92c",
+				"992b4b39-89d2-ee30-c4b1-4c6db60ba26c"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "68ec2165-5644-46eb-70f2-a096a7809d54",
+			"name": "Discovery",
+			"description": "",
+			"order": [
+				"0d0fae19-5bcb-b370-e1e5-88f7b8f09302",
+				"438c7428-811b-4c9f-1c6e-d64892f4ed1a",
+				"96c9199a-5612-79db-201e-4ecf63a197f0",
+				"15f8adb5-e852-0c99-698d-a0c5d9804751",
+				"2813d75c-b3c4-10c7-8af8-7b935d29f699",
+				"1f049a88-40bd-a771-cfd3-902a4e2ce31d",
+				"9dcb3ee1-954a-2531-0d2a-53e261ce8982"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "6e863a45-62da-573b-8c69-46e620b92451",
+			"name": "Group",
+			"description": "",
+			"order": [
+				"aa80fb74-d80d-71d9-2488-0018434b8677",
+				"ddc7282f-85cc-28a4-a473-e79234b744bb",
+				"036bcdff-0eac-b34e-f745-b27b54ae9b18",
+				"a6abb689-7c91-a9ee-36e7-79ea7224725d",
+				"93eef9de-2f30-2916-78a7-2a4f7b08f7ca",
+				"cb93e509-a3a6-5f97-f2ae-c3dc41d5e13f",
+				"9058801f-e6f5-8712-6114-16109708ae4a",
+				"62db9f19-740d-f99d-f6a7-9bd12fbd0ec9",
+				"89f30425-4def-1784-bc1c-b257c2b58a18"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "390c7800-5eb0-1478-44e8-688a32ed36e2",
+			"name": "LocationPolicy",
+			"description": "",
+			"order": [
+				"64addfba-d156-4110-fa95-2b3278cea3f2",
+				"0e3cb5cf-75f2-19c7-c000-2d873211c3fe",
+				"eaaecb56-9526-45e3-2696-e21cfed0f5c3",
+				"39665c92-ae79-e95c-2e36-1875ead3a73a",
+				"facf3930-ddf4-5c6b-9e63-68c5f6e46cf7"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "367f9833-2b5b-b895-2e9b-72f73d9430e2",
+			"name": "MgmtObj - Battery",
+			"description": "",
+			"order": [
+				"dc8cd6e2-9e16-6ed9-65ac-5b493fbf457a",
+				"16b417a6-38a5-5d9d-30bc-8176d2258c70",
+				"f8120e22-00db-d184-bde7-b2fda56e44f4",
+				"c4dfd116-664b-98d1-4870-3c59a3885669",
+				"f796424e-74da-d65d-41d9-ba1de4695e94"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "19c2114f-c978-c05f-c0c9-09e4125b61f8",
+			"name": "MgmtObj - DeviceCapacity",
+			"description": "",
+			"order": [
+				"6ccc26b7-1742-a2fd-9044-c2b4bfc066b7",
+				"1c4fddef-e90c-1ae7-1c44-fb7cd3f97228",
+				"9ace3713-877b-4ce5-18d4-8a261d883e50",
+				"6a94b7df-7081-4f5b-419a-1e461e5e87a6"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "537b0616-6912-8fb3-f36f-39d7c853717d",
+			"name": "MgmtObj - DeviceInfo",
+			"description": "",
+			"order": [
+				"7ac83ee8-dd5e-2db5-dc1a-687379fedd07",
+				"5b7673b5-7991-fe26-49c3-ca14b4ac3cba",
+				"5ad3da48-2b9d-41ec-2def-72763788f31c",
+				"9e3d44e6-5ed1-e79e-a128-5b1f2e2a32be",
+				"e58e3c6b-c9c3-49d2-e792-7f91d4601383"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "06cbe36d-a874-c714-82ff-ddeb75fbb703",
+			"name": "MgmtObj - Firmware",
+			"description": "",
+			"order": [
+				"cdc4aabc-d2c0-6184-69c3-1163179424d4",
+				"4ac5da6f-73a9-a266-4170-3cba414e0195",
+				"1ce91dd0-f36e-2c54-1479-2162368d6bfb",
+				"8e51b298-4e0f-dc95-3d19-d355845bc111",
+				"e4e878d6-9771-6417-f2c1-59f4976c949f"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "7e7d36e2-7324-9274-38c0-4c5a5b8afa7f",
+			"name": "MgmtObj - Reboot",
+			"description": "",
+			"order": [
+				"4527a695-a8f6-fa0d-5c49-8214338101e0",
+				"c4343f6d-c738-deda-458f-53ffec473acd",
+				"0b9bd0d3-974f-a3b1-9640-fe7484aa3fdd",
+				"9e22e45f-a6bc-4f4a-473a-7bbef7a266ca",
+				"cd2f0a59-0580-1843-d0de-800a3471b62b"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "114a9609-ba14-5c80-cebe-89656efff7e5",
+			"name": "Node",
+			"description": "",
+			"order": [
+				"34f6575c-819d-1f70-ee12-dd2590821ed4",
+				"266764a4-ddc1-662c-82f8-1fad186d8b4a",
+				"01b128a0-6890-0e52-0cbd-59ef17d3e8fa",
+				"c4f83e53-ce4a-6583-355f-7e8249bd100f",
+				"06b90e8d-a8fe-831f-5670-c5e7d1d2904a"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "8940d8a5-74f3-e708-1f02-5c189ab8120d",
+			"name": "RemoteCSE",
+			"description": "",
+			"order": [
+				"f5e63307-0f3c-d09b-6c94-79ca881965c0",
+				"fe9b0b8a-5d01-801e-d184-55415a93c504",
+				"7b14c259-08bc-c12b-a11b-d5ef41836c41",
+				"f107d051-41f5-e848-4b82-c65cfb4ad9b7",
+				"e4ee69d7-0ae8-34fb-2064-e198353259c7",
+				"73550b96-5792-0fb7-a14b-1e8201061921",
+				"8c98f74c-6ae8-2b45-e875-750cb283ec9f",
+				"dfdec435-e2eb-8b90-7f75-e1bb9218c143"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "b196c600-e0ac-13b7-3528-4755a851788b",
+			"name": "SemanticDescriptor",
+			"description": "",
+			"order": [
+				"337c1000-e1a7-6e96-e746-77153c56fb9e",
+				"1f2f28c0-7250-93d7-1bc7-57ca702afbaa",
+				"3f012202-f8b3-3642-3cb9-b9dc852a0224",
+				"e446a425-b607-ff8e-1c31-152c187f61a2",
+				"4cfe908d-6b17-3005-9ea7-e1b581cd4607",
+				"46a6c04d-c01f-86eb-de77-2b9ac580b085"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "a4cabb10-669f-829e-8c9f-6f8b4f37a805",
+			"name": "Subscription",
+			"description": "",
+			"order": [
+				"22687196-53ce-aae0-1992-dc43bae64402",
+				"4e9e1a1b-bfee-b3a0-65e5-e41b6914b0c0",
+				"d2ba55f6-d352-9819-c3e3-bb0586731c05",
+				"85da2c1e-0080-1b6e-385e-85aaf1f97cc2",
+				"b5c48d5a-60f3-d9cb-5902-e66f2d3e8098",
+				"1faece9e-2355-d142-2c18-78130e7a27d8",
+				"de341614-56b9-9baa-add2-03b590bdd7a0",
+				"5bbf3a3b-bdb5-138a-07f2-856ba5df4faf"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "46866889-5604-5833-cec6-3b007461f116",
+			"name": "TimeSeries",
+			"description": "",
+			"order": [
+				"5b86ca8d-0cc7-3f8b-2b3e-79da9898fd89",
+				"e0abce06-8be5-6bce-ebe4-80d62d97dbba",
+				"7cdea25c-a16a-6896-3bd5-2bef76160dc1",
+				"db4beeb5-a1fc-5dea-8812-dd690d9e5cc2",
+				"b450ef05-0b9c-c74e-aeb7-072d66c20e6d",
+				"a9a7241d-8593-216f-8905-ce931c028531",
+				"f44da74d-5f85-4bf6-d80a-dac32aae288b"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		},
+		{
+			"id": "3d6e3370-059d-e6f7-ea10-2809d546f418",
+			"name": "TimeSeriesInstance",
+			"description": "",
+			"order": [
+				"f5c94ea4-2264-732b-7a05-3fe72b3e1746",
+				"41d40f97-b414-78c2-4fe0-55d755623594",
+				"01342e5a-b43c-9d4d-8391-fee0c66dfd99",
+				"87d42715-e4b0-0e52-5518-050f3de2f5ef",
+				"4e74e299-4902-e335-6bbd-616fc97c9ecd",
+				"51524992-730e-39f2-cd13-41169601a093"
+			],
+			"folders_order": [],
+			"owner": "6988795",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1"
+		}
+	],
+	"owner": "6988795",
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "01342e5a-b43c-9d4d-8391-fee0c66dfd99",
+			"name": "Latest timeSeriesInstance RETRIEVE",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 123bjkjlk45\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1/latest",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123bjkjlk45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "3d6e3370-059d-e6f7-ea10-2809d546f418"
+		},
+		{
+			"id": "01b128a0-6890-0e52-0cbd-59ef17d3e8fa",
+			"name": "Node RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1dfag2hjhjfgdsgds345\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1dfag2hjhjfgdsgds345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "114a9609-ba14-5c80-cebe-89656efff7e5"
+		},
+		{
+			"id": "01fc9b4d-1210-47d7-0357-be82937449af",
+			"name": "AE CREATE with Result Content set to 3 (Hierarchical address + attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "// Accept: application/json\nX-M2M-RI: 12345\nX-M2M-Origin: S\nContent-Type: application/json;ty=2",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": false
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=2"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e"
+		},
+		{
+			"id": "036bcdff-0eac-b34e-f745-b27b54ae9b18",
+			"name": "Group CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 123gsyuuiuihi45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=9\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp2\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\"\n\t    ],\n\t    \"mnm\":10\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "123gsyuuiuihi45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=9"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "06b90e8d-a8fe-831f-5670-c5e7d1d2904a",
+			"name": "Node DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: FGHFH435FDS\nX-M2M-Origin: SOrigin",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "FGHFH435FDS"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "114a9609-ba14-5c80-cebe-89656efff7e5"
+		},
+		{
+			"id": "087d1a45-69a9-99df-ccf9-ee20ae011b52",
+			"name": "AE CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "// Accept: application/json\nX-M2M-RI: 1234dfadf5\nX-M2M-Origin: S\nContent-Type: application/json;ty=2",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": false
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234dfadf5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=2"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e"
+		},
+		{
+			"id": "0b9bd0d3-974f-a3b1-9640-fe7484aa3fdd",
+			"name": "Reboot mgmtObj RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: adsfasg2343\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/rbo_mgo1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "adsfasg2343"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "7e7d36e2-7324-9274-38c0-4c5a5b8afa7f"
+		},
+		{
+			"id": "0d0fae19-5bcb-b370-e1e5-88f7b8f09302",
+			"name": "Discovery with resourceType (container) and limit filter conditions copy",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: fds345435\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?fu=1&ty=3&lim=20",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "ty",
+					"value": "3"
+				},
+				{
+					"key": "lim",
+					"value": "20"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "fds345435"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "68ec2165-5644-46eb-70f2-a096a7809d54"
+		},
+		{
+			"id": "0e3cb5cf-75f2-19c7-c000-2d873211c3fe",
+			"name": "LocationPolicy CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 12345fsdfdsf\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=10\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12345fsdfdsf"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=10"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "390c7800-5eb0-1478-44e8-688a32ed36e2"
+		},
+		{
+			"id": "15f8adb5-e852-0c99-698d-a0c5d9804751",
+			"name": "Discovery with createdAfter, and createdBefore, resourceType, and limit filter conditions",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 234gjhjrgdfgfd\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?fu=1&crb=20170905T072322&cra=20170101T072322&lim=20&ty=4",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "crb",
+					"value": "20170905T072322"
+				},
+				{
+					"key": "cra",
+					"value": "20170101T072322"
+				},
+				{
+					"key": "lim",
+					"value": "20"
+				},
+				{
+					"key": "ty",
+					"value": "4"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "234gjhjrgdfgfd"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "68ec2165-5644-46eb-70f2-a096a7809d54"
+		},
+		{
+			"id": "16b417a6-38a5-5d9d-30bc-8176d2258c70",
+			"name": "Battery  mgmtObj RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: retre67576\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/bat_mgo1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "retre67576"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "367f9833-2b5b-b895-2e9b-72f73d9430e2"
+		},
+		{
+			"id": "1b7bc556-edb8-5030-270e-dd6ba346e2b6",
+			"name": "Container RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234er5\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234er5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		},
+		{
+			"id": "1c4fddef-e90c-1ae7-1c44-fb7cd3f97228",
+			"name": "DeviceCapability mgmtObj RETRIEVE",
+			"description": "Equivalent to deviceCapability mgmtObj RETRIEVE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345DSFSAD\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/dvc_mgo1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345DSFSAD"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "19c2114f-c978-c05f-c0c9-09e4125b61f8"
+		},
+		{
+			"id": "1ce91dd0-f36e-2c54-1479-2162368d6bfb",
+			"name": "Firmware mgmtObj RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: adsfew5345\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/fwr_mgo1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "adsfew5345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "06cbe36d-a874-c714-82ff-ddeb75fbb703"
+		},
+		{
+			"id": "1f049a88-40bd-a771-cfd3-902a4e2ce31d",
+			"name": "Discovery with createdBefore, and createdAfter, resourceType, limit, sizeBelow, and sizeAbove filter conditions",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: sdaf343545\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?fu=1&ty=4&sza=3&szb=100&crb=20170905T072322&cra=20170601T072322&lim=20",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "ty",
+					"value": "4"
+				},
+				{
+					"key": "sza",
+					"value": "3"
+				},
+				{
+					"key": "szb",
+					"value": "100"
+				},
+				{
+					"key": "crb",
+					"value": "20170905T072322"
+				},
+				{
+					"key": "cra",
+					"value": "20170601T072322"
+				},
+				{
+					"key": "lim",
+					"value": "20"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "sdaf343545"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "68ec2165-5644-46eb-70f2-a096a7809d54"
+		},
+		{
+			"id": "1f2f28c0-7250-93d7-1bc7-57ca702afbaa",
+			"name": "SemanticDescriptor CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12dfsgsdf345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=24",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n    \"m2m:smd\" : {\n        \"dcrp\"\t: \"application/rdf+json:1\",\n        \"rn\"\t: \"smd1\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12dfsgsdf345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=24"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "b196c600-e0ac-13b7-3528-4755a851788b"
+		},
+		{
+			"id": "1f5cccc9-6cd3-fbba-809b-266150082fe2",
+			"name": "CSEBase RETRIEVE with Result Content set to 4, and Limit set to 10",
+			"description": "A CSEBase RETRIEVE request initalized by an AE (S20170717074825768bp2l) \nAssume this AE has been registered with Mobius and has permission to retrieve CSEBase of Mobius",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?rcn=4&lim=10",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "4"
+				},
+				{
+					"key": "lim",
+					"value": "10"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "2e6a2b42-0b33-dafa-7bb1-4203c1cb7c5b"
+		},
+		{
+			"id": "1faece9e-2355-d142-2c18-78130e7a27d8",
+			"name": "Subscription UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsafadsf45\nX-M2M-Origin: Superman\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n\t\"m2m:sub\" : {\r\n\t\t\t\"nu\": [\r\n            \t\t\"mqtt://127.0.0.1/S_LB0051SR0055?ct=xml\"\r\n        \t\t]\r\n    }\r\n}",
+			"url": "{{mp_url}}/{{cb}}/LB0051TP0053/action/Execute/S_LB0051TP0053",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsafadsf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "Superman"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "20ea0c88-4a9c-b0a4-0a3e-5141175d6550",
+			"name": "CSEBase RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "2e6a2b42-0b33-dafa-7bb1-4203c1cb7c5b"
+		},
+		{
+			"id": "22687196-53ce-aae0-1992-dc43bae64402",
+			"name": "Subcription CREATE",
+			"description": "Equivalent to subscription CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dfsaf45\nX-M2M-Origin: S\nContent-Type: application/json;ty=23",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"LB0051TP0053_data\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://203.253.128.161/SMisemeonji?ct=xml\"]\n    }\n}\n\n\n",
+			"url": "{{mp_url}}/{{cb}}/LB0051TP0053/action/Data",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dfsaf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=23"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "266764a4-ddc1-662c-82f8-1fad186d8b4a",
+			"name": "Node CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: trytASDFr6757\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=14",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:nod\": {\n    \"rn\": \"nod1\",\n    \"ni\": \"urn:gsma:imei:90420156-025763-0;svn=42\",\n    \"hcl\":\"/Mobius\"\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "trytASDFr6757"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=14"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "114a9609-ba14-5c80-cebe-89656efff7e5"
+		},
+		{
+			"id": "2813d75c-b3c4-10c7-8af8-7b935d29f699",
+			"name": "Discovery with sizeBelow, and sizeAbove, resourceType, and limit  filter conditions",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: sdaf343545\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?fu=1&ty=4&sza=2&szb=100&lim=20",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "ty",
+					"value": "4"
+				},
+				{
+					"key": "sza",
+					"value": "2"
+				},
+				{
+					"key": "szb",
+					"value": "100"
+				},
+				{
+					"key": "lim",
+					"value": "20"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "sdaf343545"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "68ec2165-5644-46eb-70f2-a096a7809d54"
+		},
+		{
+			"id": "28380369-626a-9206-1e1f-9603b16236d5",
+			"name": "Container CREATE",
+			"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12aadftret345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json; ty=3",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12aadftret345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=3"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		},
+		{
+			"id": "31c89af2-6c5d-c9e6-d01f-9dcbbe56fde3",
+			"name": "AccessContrlPolicy CREATE with Result Content set to 3 (Hieararchical address + address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 12fhfh345\nX-M2M-Origin: SOrigin\nContent-Type: application/json; ty=1\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12fhfh345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=1"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "33507494-8eb7-8c75-b1b7-b8c6ebaba33d",
+			"name": "AE CREATE",
+			"description": "Equivalent to AE CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "// Accept: application/json\nX-M2M-RI: 123aaghjhk45\nX-M2M-Origin: S\nContent-Type: application/json;ty=2",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": false
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123aaghjhk45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=2"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e"
+		},
+		{
+			"id": "337c1000-e1a7-6e96-e746-77153c56fb9e",
+			"name": "SemanticDescriptor CREATE",
+			"description": "Equivalent to semanticDescriptorCREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12dfsgsdf345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=24",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n    \"m2m:smd\" : {\n        \"dcrp\"\t: \"application/rdf+json:1\",\n        \"rn\"\t: \"smd1\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12dfsgsdf345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=24"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "b196c600-e0ac-13b7-3528-4755a851788b"
+		},
+		{
+			"id": "33f841dc-3af3-cf61-102a-948fb677aaf1",
+			"name": "Container CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12aadftret345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json; ty=3",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12aadftret345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=3"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		},
+		{
+			"id": "34f6575c-819d-1f70-ee12-dd2590821ed4",
+			"name": "Node CREATE",
+			"description": "Equivalent to node CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: trytr6757\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=14",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:nod\": {\n    \"rn\": \"nod1\",\n    \"ni\": \"urn:gsma:imei:90420156-025763-0;svn=42\",\n    \"hcl\":\"/Mobius\"\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "trytr6757"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=14"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "114a9609-ba14-5c80-cebe-89656efff7e5"
+		},
+		{
+			"id": "39665c92-ae79-e95c-2e36-1875ead3a73a",
+			"name": "LocationPolicy DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "X-M2M-RI: 12345fasesdfdsf\nX-M2M-Origin: S20170717074825768bp2l\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/locply1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12345fasesdfdsf"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "390c7800-5eb0-1478-44e8-688a32ed36e2"
+		},
+		{
+			"id": "3f012202-f8b3-3642-3cb9-b9dc852a0224",
+			"name": "SemanticDescriptor RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234asdfasd5\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234asdfasd5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "b196c600-e0ac-13b7-3528-4755a851788b"
+		},
+		{
+			"id": "41d40f97-b414-78c2-4fe0-55d755623594",
+			"name": "TimeSeriesInstance CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 1kvuytcuijvh2345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=30",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:tsi\" : {\n\t    \"dgt\": \"20170717T123456\",\n\t    \"con\":\"DATA_TACK\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1kvuytcuijvh2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=30"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "3d6e3370-059d-e6f7-ea10-2809d546f418"
+		},
+		{
+			"id": "438c7428-811b-4c9f-1c6e-d64892f4ed1a",
+			"name": "Discovery with resourceType (contentInstance) and limit filter conditions",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: fds345435\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?fu=1&ty=4&lim=20",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "ty",
+					"value": "4"
+				},
+				{
+					"key": "lim",
+					"value": "20"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "fds345435"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "68ec2165-5644-46eb-70f2-a096a7809d54"
+		},
+		{
+			"id": "4527a695-a8f6-fa0d-5c49-8214338101e0",
+			"name": "Reboot mgmtObj CREATE",
+			"description": "Equivalent to Reboot CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12ibioj345\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:rbo\": {\n    \"rn\": \"rbo_mgo1\",\n    \"lbl\": [\"key4\"],\n    \"mgd\": 1009,\n    \"rbo\": false\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12ibioj345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "7e7d36e2-7324-9274-38c0-4c5a5b8afa7f"
+		},
+		{
+			"id": "46a6c04d-c01f-86eb-de77-2b9ac580b085",
+			"name": "SemanticDescriptor DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 12DFDASF345\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12DFDASF345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "b196c600-e0ac-13b7-3528-4755a851788b"
+		},
+		{
+			"id": "4ac5da6f-73a9-a266-4170-3cba414e0195",
+			"name": "Firmware  mgmtObj CREATE",
+			"description": "Equivalent to Firmware CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: adg456547567\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:fwr\": {\n    \"rn\": \"fwr_mgo1\",\n    \"lbl\": [\"key1\"],\n    \"mgd\": 1001,\n    \"vr\": \"1.0.0\",\n    \"fwnnam\": \"test\",\n    \"url\": \"http://203.253.128.151:7579/firmware\",\n    \"ud\": true\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "adg456547567"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "06cbe36d-a874-c714-82ff-ddeb75fbb703"
+		},
+		{
+			"id": "4cfe908d-6b17-3005-9ea7-e1b581cd4607",
+			"name": "SemanticDescriptor UPDATE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 1bhgjh2345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n    \"m2m:smd\" : {\n        \"lbl\" : [\"semantic_descriptor\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1bhgjh2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "b196c600-e0ac-13b7-3528-4755a851788b"
+		},
+		{
+			"id": "4d18bf3a-33bc-a496-c881-db442d90e62e",
+			"name": "ContentInstance DISCOVERY under Container",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1dfada2345\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?fu=1&ty=4",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "ty",
+					"value": "4"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1dfada2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85"
+		},
+		{
+			"id": "4e74e299-4902-e335-6bbd-616fc97c9ecd",
+			"name": "Oldest timeSeriesInstance DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 123buigblkjhbk45\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1/oldest?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123buigblkjhbk45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "3d6e3370-059d-e6f7-ea10-2809d546f418"
+		},
+		{
+			"id": "4e9e1a1b-bfee-b3a0-65e5-e41b6914b0c0",
+			"name": "Subcription_xml",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/xml\nlocale: ko\nX-M2M-RI: 12345\nX-M2M-Origin: /0.2.481.1.21160310105204806\n// X-M2M-NM: heartbeat1\nContent-Type: application/vnd.onem2m-res+xml; ty=4\nnmtype: short",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:cin\n    xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" \n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <con>{message_type: \"node.cmd\", command_type: \"control\", request_value: \"ON\"}</con>\n</m2m:cin>",
+			"url": "http://203.253.128.161:7579/Mobius/9a8b6957ec25-node13/switch1_command",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/xml"
+				},
+				{
+					"key": "locale",
+					"value": "ko"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "/0.2.481.1.21160310105204806"
+				},
+				{
+					"key": "X-M2M-NM",
+					"value": "heartbeat1",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/vnd.onem2m-res+xml; ty=4"
+				},
+				{
+					"key": "nmtype",
+					"value": "short"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "51524992-730e-39f2-cd13-41169601a093",
+			"name": "Latest  timeSeriesInstance DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 123buigblkjhbk45\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1/latest?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123buigblkjhbk45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "3d6e3370-059d-e6f7-ea10-2809d546f418"
+		},
+		{
+			"id": "52fc5e18-3a34-2eca-35e0-60293712c05b",
+			"name": "AccessControlPolicy UPDATE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 12dsfdsaf345\nX-M2M-Origin: /Mobius\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{ \n  \"m2m:acp\": { \n\t\"pv\": { \n\t\t\"acr\":[\n\t    {\n\t    \t\"acor\": [ \n\t\t\t\t\"ByW7eOgcBW\",\n\t\t\t\t\"ryeubi\",\n\t\t\t\t\"guest_groupA\",\n\t\t\t\t\"guest_groupB\",\n\t\t\t\t\"student_eduA\",\n\t\t\t\t\"student_eduB\"\n\t\t\t], \n\t\t\t\"acop\": 63\n\t    }] \n    }, \n\t\"pvs\": { \n\t\t\"acr\":[{ \n\t\t\t\"acor\": [ \n\t\t\t\t\"S20170705065326333aZtE\",\n\t\t\t\t\"ryeubi\",\n\t\t\t\t\"ByW7eOgcBW\"\n\t\t\t], \n\t\t\t\"acop\":63 \n\t\t}] \n\t} \n } \n}\n\n\n\n\n",
+			"url": "{{mp_url}}/{{cb}}/admin_acp?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12dsfdsaf345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "/Mobius"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "54bf3238-4e83-4b65-3001-7f46df85b7f7",
+			"name": "AE UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 12dsfdsf345\nX-M2M-Origin: S20170713200332320Bdfl\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:ae\": {\n    \"lbl\": [\"API_demo\", \"test\"]\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12dsfdsf345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170713200332320Bdfl"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e"
+		},
+		{
+			"id": "5a1a7b7a-09aa-7aab-3ddb-6c6bbd53b58d",
+			"name": "AccessContrlPolicy CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 12fhfh345\nX-M2M-Origin: SOrigin\nContent-Type: application/json; ty=1\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12fhfh345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=1"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "5ad3da48-2b9d-41ec-2def-72763788f31c",
+			"name": "DeviceInfo mgmtObj RETRIEVEwith Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: dag435435\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/dvi_mgo1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "dag435435"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "537b0616-6912-8fb3-f36f-39d7c853717d"
+		},
+		{
+			"id": "5b7673b5-7991-fe26-49c3-ca14b4ac3cba",
+			"name": "DeviceInfo mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234hb5\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:dvi\": {\n\t\t\"rn\": \"dvi_mgo1\",\n\t\t\"lbl\": [\"key2\"],\n\t\t\"mgd\": 1007,\n\t\t\"dbl\": \"test dvi\",\n\t\t\"man\": \"keti\",\n\t\t\"mod\": \"aqua\",\n\t\t\"dty\": \"aqua system\",\n\t\t\"fwv\": \"1.0.0\",\n\t\t\"swv\": \"1.0.0\",\n\t\t\"hwv\": \"1.0.0\"\n\t}\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234hb5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "537b0616-6912-8fb3-f36f-39d7c853717d"
+		},
+		{
+			"id": "5b86ca8d-0cc7-3f8b-2b3e-79da9898fd89",
+			"name": "TimeSeries CREATE",
+			"description": "Equivalent to timeSeries CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 1aedfggf2345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=29",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:ts\" : {\n\t\t\"rn\": \"ts1\",\n\t\t\"pei\":1,\n\t\t\"mdd\":true,\n\t\t\"mdt\":1,\n\t    \"lbl\": [\"timeSeries_label\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1aedfggf2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=29"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "46866889-5604-5833-cec6-3b007461f116"
+		},
+		{
+			"id": "5bbf3a3b-bdb5-138a-07f2-856ba5df4faf",
+			"name": "Subscription RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/justin/ss_clone/sub1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "62db9f19-740d-f99d-f6a7-9bd12fbd0ec9",
+			"name": "Group DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/grp1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "64addfba-d156-4110-fa95-2b3278cea3f2",
+			"name": "LocationPolicy CREATE",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 12345fsdfdsf\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=10\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12345fsdfdsf"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=10"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "390c7800-5eb0-1478-44e8-688a32ed36e2"
+		},
+		{
+			"id": "65d6df08-b96c-f877-0e87-57e1c9798c54",
+			"name": "AE CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "// Accept: application/json\nX-M2M-RI: 1234dfadf5\nX-M2M-Origin: S\nContent-Type: application/json;ty=2",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"ae_test\",\n\t    \"api\": \"0.2.481.2.0001.001.000111\",\n\t    \"lbl\": [\"key1\", \"key2\"],\n\t    \"rr\": true\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": false
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234dfadf5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=2"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e"
+		},
+		{
+			"id": "6a94b7df-7081-4f5b-419a-1e461e5e87a6",
+			"name": "DeviceCapacity mgmtObj DELETE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: auyisdtg43e5re\nX-M2M-Origin: SOrigin",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/dvc_mgo1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "auyisdtg43e5re"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "19c2114f-c978-c05f-c0c9-09e4125b61f8"
+		},
+		{
+			"id": "6ccc26b7-1742-a2fd-9044-c2b4bfc066b7",
+			"name": "DeviceCapability mgmtObj CREATE with Result Content set to 2 (Hierarchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: fg54654sadf\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:dvc\": {\n    \"rn\": \"dvc_mgo1\",\n    \"lbl\": [\"key3\"],\n    \"mgd\": 1008,\n    \"can\": \"test dvc\",\n    \"att\": true,\n    \"cas\": {\n      \"can\": \"http://203.253.128.151:7579/action\",\n      \"sus\": 1\n    },\n    \"cus\": true\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "fg54654sadf"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "19c2114f-c978-c05f-c0c9-09e4125b61f8"
+		},
+		{
+			"id": "6fecf37e-0c19-9797-a86a-852e8aa5309a",
+			"name": "Container CREATE with Result Content set to 3 (Hieararchical address+attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12aadftret345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json; ty=3",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12aadftret345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=3"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		},
+		{
+			"id": "73550b96-5792-0fb7-a14b-1e8201061921",
+			"name": "remoteCSE UPDATE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 1235zews45\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:csr\" : {\n\t    \"poa\": [\"http://203.254.173.104:7580/notification\", \"mqtt://203.253.128.151/:rosemary\"]\n    }\n}\n\n",
+			"url": "{{mp_url}}/{{cb}}/nCube?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1235zews45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "7ac83ee8-dd5e-2db5-dc1a-687379fedd07",
+			"name": "DeviceInfo mgmtObj CREATE",
+			"description": "Equivalent to DeviceInfo CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234hb5\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:dvi\": {\n\t\t\"rn\": \"dvi_mgo1\",\n\t\t\"lbl\": [\"key2\"],\n\t\t\"mgd\": 1007,\n\t\t\"dbl\": \"test dvi\",\n\t\t\"man\": \"keti\",\n\t\t\"mod\": \"aqua\",\n\t\t\"dty\": \"aqua system\",\n\t\t\"fwv\": \"1.0.0\",\n\t\t\"swv\": \"1.0.0\",\n\t\t\"hwv\": \"1.0.0\"\n\t}\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234hb5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "537b0616-6912-8fb3-f36f-39d7c853717d"
+		},
+		{
+			"id": "7b14c259-08bc-c12b-a11b-d5ef41836c41",
+			"name": "remoteCSE CREATE with Result Content set to 2 (hierarchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsfdsa45\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=16",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsfdsa45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=16"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "7cdea25c-a16a-6896-3bd5-2bef76160dc1",
+			"name": "TimeSeries CREATE with Result Content set to 3 (Hierarchical address+attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 1aedfggf2345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=29",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:ts\" : {\n\t\t\"rn\": \"ts1\",\n\t\t\"pei\":1,\n\t\t\"mdd\":true,\n\t\t\"mdt\":1,\n\t    \"lbl\": [\"timeSeries_label\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1aedfggf2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=29"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "46866889-5604-5833-cec6-3b007461f116"
+		},
+		{
+			"id": "7e572410-2245-25d4-7d78-49cfa7af63a0",
+			"name": "ContentInstance CREATE with Result Content set to 3 (Hieararchical address+attribute)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123sdfgd45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json; ty=4",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n    \"m2m:cin\": {\n        \"con\": \"on\"\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123sdfgd45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=4"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85"
+		},
+		{
+			"id": "804e6087-e724-a651-6c64-002a4f505abb",
+			"headers": "Accept: application/xml\nX-M2M-RI: 123sdfgd45\nX-M2M-Origin: S\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/xml",
+					"description": "\n",
+					"enabled": true
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123sdfgd45",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1624329928928,
+			"name": "ContentInstance CREATE",
+			"description": "Equivalent to contentInstance CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"responses": [],
+			"rawModeData": "{\n    \"m2m:cin\": {\n        \"con\": \"on\"\n    }\n}"
+		},
+		{
+			"id": "85da2c1e-0080-1b6e-385e-85aaf1f97cc2",
+			"name": "Subcription CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dfsaf45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=23",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"sub1\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://localhost/0.2.481.1.7579\"]\n    }\n}\n\n\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dfsaf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=23"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "8702acb0-5058-9545-ac64-0c37ae44b3ae",
+			"name": "Latest contentInstance RETRIEVE",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test/latest",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85"
+		},
+		{
+			"id": "87d42715-e4b0-0e52-5518-050f3de2f5ef",
+			"name": "TimeSeriesInstance DISCOVERY",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 123bjkjlk45\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1/latest",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123bjkjlk45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "3d6e3370-059d-e6f7-ea10-2809d546f418"
+		},
+		{
+			"id": "87eb7ce3-2de7-9370-dcdc-db69555e6708",
+			"name": "AccessControlPolicy UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 12dsfdsaf345\nX-M2M-Origin: /Mobius\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{ \n  \"m2m:acp\": { \n\t\"pv\": { \n\t\t\"acr\":[\n\t    {\n\t    \t\"acor\": [ \n\t\t\t\t\"ByW7eOgcBW\",\n\t\t\t\t\"S20170717074825768bp2l\",\n\t\t\t\t\"guest_groupA\",\n\t\t\t\t\"guest_groupB\",\n\t\t\t\t\"student_eduA\",\n\t\t\t\t\"student_eduB\"\n\t\t\t], \n\t\t\t\"acop\": 63\n\t    }] \n    }, \n\t\"pvs\": { \n\t\t\"acr\":[{ \n\t\t\t\"acor\": [ \n\t\t\t\t\"S20170705065326333aZtE\",\n\t\t\t\t\"S20170717074825768bp2l\",\n\t\t\t\t\"ryeubi\",\n\t\t\t\t\"ByW7eOgcBW\"\n\t\t\t], \n\t\t\t\"acop\":63 \n\t\t}] \n\t} \n } \n}\n\n\n\n\n",
+			"url": "{{mp_url}}/{{cb}}/admin_acp?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12dsfdsaf345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "/Mobius"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "89f30425-4def-1784-bc1c-b257c2b58a18",
+			"name": "Group member RETRIEVE with fanOutPoint (PENDING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234bvluikjn5\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/grp1/fopt",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234bvluikjn5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "8c98f74c-6ae8-2b45-e875-750cb283ec9f",
+			"name": "remoteCSE UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 1235zews45\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:csr\" : {\n\t    \"poa\": [\"http://203.254.173.104:7580/notification\", \"mqtt://203.253.128.151/:rosemary\"]\n    }\n}\n\n",
+			"url": "{{mp_url}}/{{cb}}/nCube?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1235zews45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "8e51b298-4e0f-dc95-3d19-d355845bc111",
+			"name": "Firmware UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: tytr657343\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:fwr\": {\n\n    \"lbl\": [\"key2\"]\n\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1/fwr_mgo1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "tytr657343"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "06cbe36d-a874-c714-82ff-ddeb75fbb703"
+		},
+		{
+			"id": "8e843e9b-f3e8-d554-f803-32dabb316bfb",
+			"name": "AccessControlPolicy DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsfsdfs5\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/admin_acp?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsfsdfs5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "9058801f-e6f5-8712-6114-16109708ae4a",
+			"name": "Group UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "X-M2M-RI: aefd123gsyuuiuihi45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:grp\" : {\n\t    \"mnm\":100\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/grp1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "aefd123gsyuuiuihi45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "93eef9de-2f30-2916-78a7-2a4f7b08f7ca",
+			"name": "Group RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "X-M2M-RI: 43564hgfhf\nX-M2M-Origin: S20170717074825768bp2l\nAccept: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/grp1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "43564hgfhf"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "96c9199a-5612-79db-201e-4ecf63a197f0",
+			"name": "Discovery with stateTagBigger, and stateTagSmaller, and resourceType filter conditions",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 54643hfshsfdh\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?fu=1&ty=3&stb=0&sts=5",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "ty",
+					"value": "3"
+				},
+				{
+					"key": "stb",
+					"value": "0"
+				},
+				{
+					"key": "sts",
+					"value": "5"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "54643hfshsfdh"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "68ec2165-5644-46eb-70f2-a096a7809d54"
+		},
+		{
+			"id": "977ab4fd-311f-b715-f3f0-3466cd050ea7",
+			"name": "Container RETRIEVE with Result Content set to 4 (Attribute + Child resources)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 123adsfadsf45\nX-M2M-Origin: S20170705065326333aZtE",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=4",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "4"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123adsfadsf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170705065326333aZtE"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		},
+		{
+			"id": "992b4b39-89d2-ee30-c4b1-4c6db60ba26c",
+			"name": "Latest contentInstance DELETE with Result content set to 0 (nothing)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 127834dfdf5\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test/latest",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "127834dfdf5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85"
+		},
+		{
+			"id": "9ace3713-877b-4ce5-18d4-8a261d883e50",
+			"name": "DeviceCapability mgmtObj UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: asdf343\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:dvc\": {\n    \"lbl\": [\"key3\"],\n    \"can\": \"test dvc\",\n    \"att\": true,\n    \"cas\": {\n      \"can\": \"http://203.253.128.151:7579/action\",\n      \"sus\": 1\n    },\n    \"cus\": true\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1/dvc_mgo1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "asdf343"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "19c2114f-c978-c05f-c0c9-09e4125b61f8"
+		},
+		{
+			"id": "9b31f331-5bc6-9090-25bf-f37f514aa92c",
+			"name": "ContentInstance DISCOVERY under AE (S20170717074825768bp2l)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1dfada234aaadf5\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test?fu=1&ty=4",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "ty",
+					"value": "4"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1dfada234aaadf5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85"
+		},
+		{
+			"id": "9dcb3ee1-954a-2531-0d2a-53e261ce8982",
+			"name": "Discovery with modifiedSince, and unmodifiedSince filter conditions",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: sdaf343545\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}?fu=1&us=20270105T072322&ms=20170201T072322&lim=20",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "fu",
+					"value": "1"
+				},
+				{
+					"key": "us",
+					"value": "20270105T072322"
+				},
+				{
+					"key": "ms",
+					"value": "20170201T072322"
+				},
+				{
+					"key": "lim",
+					"value": "20"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "sdaf343545"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "68ec2165-5644-46eb-70f2-a096a7809d54"
+		},
+		{
+			"id": "9e22e45f-a6bc-4f4a-473a-7bbef7a266ca",
+			"name": "Reboot mgmtObj UPDATEwith Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 3434rtyr4tds\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:rbo\": {\n    \"lbl\": [\"key5\"],\n    \"rbo\": false\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1/rbo_mgo1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "3434rtyr4tds"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "7e7d36e2-7324-9274-38c0-4c5a5b8afa7f"
+		},
+		{
+			"id": "9e3d44e6-5ed1-e79e-a128-5b1f2e2a32be",
+			"name": "DeviceInfo mgmtObj UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: asdfdsd343af\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:dvi\": {\n    \"lbl\": [\"key2\"],\n    \"dbl\": \"test dvi\",\n    \"man\": \"keti\",\n    \"mod\": \"aqua\",\n    \"dty\": \"aqua system\",\n    \"fwv\": \"1.0.0\",\n    \"swv\": \"1.0.0\",\n    \"hwv\": \"1.0.0\"\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1/dvi_mgo1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "asdfdsd343af"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "537b0616-6912-8fb3-f36f-39d7c853717d"
+		},
+		{
+			"id": "a6abb689-7c91-a9ee-36e7-79ea7224725d",
+			"name": "Group CREATE with Result Content set to 3 (Hieararchical address+Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 123gsyuuiuihi45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=9\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp2\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\"\n\t    ],\n\t    \"mnm\":10\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "123gsyuuiuihi45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=9"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "a9a7241d-8593-216f-8905-ce931c028531",
+			"name": "TimeSeries RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345t87y87y\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345t87y87y"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "46866889-5604-5833-cec6-3b007461f116"
+		},
+		{
+			"id": "aa80fb74-d80d-71d9-2488-0018434b8677",
+			"name": "Group CREATE",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 123gsyuuiuihi45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=9\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp2\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\"\n\t    ],\n\t    \"mnm\":10\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "123gsyuuiuihi45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=9"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "afbbab29-3598-be6b-7368-9a2af6848afb",
+			"name": "AccessContrlPolicy CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 12fhfh345\nX-M2M-Origin: SOrigin\nContent-Type: application/json; ty=1\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12fhfh345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=1"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "b450ef05-0b9c-c74e-aeb7-072d66c20e6d",
+			"name": "TimeSeries UPDATE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsafadsf45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:ts\" : {\n\t\t\"mdt\":2,\n\t    \"lbl\": [\"timeSeries_label\", \"heartbeat1\"]\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsafadsf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "46866889-5604-5833-cec6-3b007461f116"
+		},
+		{
+			"id": "b5c48d5a-60f3-d9cb-5902-e66f2d3e8098",
+			"name": "Subcription CREATE with Result Content set to 3 (Hieararchical address+Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dfsaf45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=23",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"sub1\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://localhost/0.2.481.1.7579\"]\n    }\n}\n\n\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dfsaf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=23"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "beac1c9a-1a21-5035-4793-b8aa850ac122",
+			"name": "ContentInstance CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123sdfgd45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json; ty=4",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n    \"m2m:cin\": {\n        \"con\": \"on\"\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123sdfgd45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=4"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85"
+		},
+		{
+			"id": "c42c767f-b302-c4ff-6c88-ae50a753a25a",
+			"name": "Container UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "// Accept: application/json\nX-M2M-RI: 123aedghf34\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:cnt\" : {\n\t    \"lbl\": [\"heartbeat1\"],\n\t    \"mni\":4\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"enabled": false
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123aedghf34"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		},
+		{
+			"id": "c4343f6d-c738-deda-458f-53ffec473acd",
+			"name": "Reboot mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12ibioj345\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:rbo\": {\n    \"rn\": \"rbo_mgo1\",\n    \"lbl\": [\"key4\"],\n    \"mgd\": 1009,\n    \"rbo\": false\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12ibioj345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "7e7d36e2-7324-9274-38c0-4c5a5b8afa7f"
+		},
+		{
+			"id": "c4dfd116-664b-98d1-4870-3c59a3885669",
+			"name": "Battery  mgmtObj UPDATE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: gfhgh657567\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:bat\": {\n    \"lbl\": [\"key1\"],\n    \"btl\": 99,\n    \"bts\": 1\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1/bat_mgo1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "gfhgh657567"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "367f9833-2b5b-b895-2e9b-72f73d9430e2"
+		},
+		{
+			"id": "c4f83e53-ce4a-6583-355f-7e8249bd100f",
+			"name": "Node UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: rewthgdh345\nX-M2M-Origin: SOrigin\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:nod\": {\n\t\t\"lbl\": [\"node_lbl\"]\n\t\n\t}\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "rewthgdh345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "114a9609-ba14-5c80-cebe-89656efff7e5"
+		},
+		{
+			"id": "cb93e509-a3a6-5f97-f2ae-c3dc41d5e13f",
+			"name": "Group UPDATE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "X-M2M-RI: 785fhsfgg\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:grp\" : {\n\n\t    \"mnm\":50\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/grp1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "785fhsfgg"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "cc291612-c99e-478c-9b20-527094432c67",
+			"name": "AccessContrlPolicy CREATE",
+			"description": "Equivalent to AccessControlPolicyCREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 12fhfh345\nX-M2M-Origin: SOrigin\nContent-Type: application/json; ty=1\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{ \n  \"m2m:acp\": { \n  \"rn\": \"admin_acp\", \n  \"pv\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"guest_groupA\",\n        \"guest_groupB\"\n      ], \n      \"acop\": 51\n      },\n      {\n        \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\": 63\n      }] \n    }, \n  \"pvs\": { \n    \"acr\":[{ \n      \"acor\": [ \n        \"S20170705065326333aZtE\"\n      ], \n      \"acop\":63 \n    }] \n  } \n } \n}\n\n\n\n\n\n",
+			"url": "{{mp_url}}/{{cb}}",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12fhfh345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=1"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "cd2f0a59-0580-1843-d0de-800a3471b62b",
+			"name": "Reboot mgmtObj DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: asdtg43e5re\nX-M2M-Origin: SOrigin",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/rbo_mgo1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "asdtg43e5re"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "7e7d36e2-7324-9274-38c0-4c5a5b8afa7f"
+		},
+		{
+			"id": "cdc4aabc-d2c0-6184-69c3-1163179424d4",
+			"name": "Firmware  mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: adg456547567\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:fwr\": {\n    \"rn\": \"fwr_mgo1\",\n    \"lbl\": [\"key1\"],\n    \"mgd\": 1001,\n    \"vr\": \"1.0.0\",\n    \"fwnnam\": \"test\",\n    \"url\": \"http://203.253.128.151:7579/firmware\",\n    \"ud\": true\n  }\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "adg456547567"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "06cbe36d-a874-c714-82ff-ddeb75fbb703"
+		},
+		{
+			"id": "d01396d5-130a-49c5-72bf-916023f776a0",
+			"name": "ContentInstance CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123sdfgd45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json; ty=4",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n    \"m2m:cin\": {\n        \"con\": \"on\"\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123sdfgd45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=4"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "21f65215-2d23-f07c-a0c7-f5c44225fe85"
+		},
+		{
+			"id": "d2ba55f6-d352-9819-c3e3-bb0586731c05",
+			"name": "Subcription CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dfsaf45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=23",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:sub\" : {\n\t\t\"rn\": \"sub1\",\n\t\t\"enc\":{\n\t\t   \"net\":[3]\n\t\t},\n\t    \"nu\": [\"mqtt://localhost/0.2.481.1.7579\"]\n    }\n}\n\n\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dfsaf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=23"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "d974185c-0901-25ec-5676-3622a599f8e0",
+			"name": "AE RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234asdfadd5\nX-M2M-Origin: S20170713200332320Bdfl",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234asdfadd5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170713200332320Bdfl"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e"
+		},
+		{
+			"id": "d9d2e492-0ea0-8c20-580f-58445c4acbf8",
+			"name": "AccessControlPolicy RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234sdsfa5\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/admin_acp?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234sdsfa5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6c14a261-1685-62a5-41d7-28e65742dc90"
+		},
+		{
+			"id": "db4beeb5-a1fc-5dea-8812-dd690d9e5cc2",
+			"name": "TimeSeries UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsafadsf45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:ts\" : {\n\t\t\"mdt\":2,\n\t    \"lbl\": [\"timeSeries_label\", \"heartbeat1\"]\n    }\n}",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsafadsf45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "46866889-5604-5833-cec6-3b007461f116"
+		},
+		{
+			"id": "dc8cd6e2-9e16-6ed9-65ac-5b493fbf457a",
+			"name": "Battery mgmtObj CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 45tytyjhhj5\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:bat\": {\n\t\t\"rn\": \"bat_mgo2\",\n\t\t\"lbl\": [\"battery\"],\n\t\t\"mgd\": 1006,\n\t\t\"btl\": 99,\n\t\t\"bts\": 1\n\t}\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "45tytyjhhj5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "367f9833-2b5b-b895-2e9b-72f73d9430e2"
+		},
+		{
+			"id": "ddc7282f-85cc-28a4-a473-e79234b744bb",
+			"name": "Group CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 123gsyuuiuihi45\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=9\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:grp\" : {\n\t\t\"rn\": \"grp1\",\n\t    \"mid\": [\n\t    \t\t\"Mobius/ae_test/cnt_test3/4-20170717101658000xxvX\",\n\t\t        \"Mobius/ae_test/cnt_test3/4-201707171016573184FnI\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-20170717101652553qHHl\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-20170717101652068VKn6\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-20170717101651482Y3sm\",\n\t\t        \"Mobius/ae_test/cnt_test2/4-201707171016496707Olg\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094048139l0cS\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094047154sdiG\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094047714TwoG\",\n\t\t        \"Mobius/ae_test/cnt_test/4-20170717094046045Bn0D\"\n\t    \t\n\t    ],\n\t    \"mnm\":10\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "123gsyuuiuihi45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=9"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "6e863a45-62da-573b-8c69-46e620b92451"
+		},
+		{
+			"id": "de341614-56b9-9baa-add2-03b590bdd7a0",
+			"name": "Subscription DELETE with Result content set to 0 (nothing)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 12fgfhgh345\nX-M2M-Origin: S20170717074825768bp2l",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test/sub1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12fgfhgh345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "a4cabb10-669f-829e-8c9f-6f8b4f37a805"
+		},
+		{
+			"id": "dfdec435-e2eb-8b90-7f75-e1bb9218c143",
+			"name": "remoteCSE DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 123fdgds45\nX-M2M-Origin: /mobius-yt",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nCube02?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123fdgds45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "/mobius-yt"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "e0abce06-8be5-6bce-ebe4-80d62d97dbba",
+			"name": "TimeSeries CREATE with Result Content set to 2 (Hierarchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 1aedfggf2345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=29",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:ts\" : {\n\t\t\"rn\": \"ts1\",\n\t\t\"pei\":1,\n\t\t\"mdd\":true,\n\t\t\"mdt\":1,\n\t    \"lbl\": [\"timeSeries_label\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1aedfggf2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=29"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "46866889-5604-5833-cec6-3b007461f116"
+		},
+		{
+			"id": "e446a425-b607-ff8e-1c31-152c187f61a2",
+			"name": "SemanticDescriptor UPDATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "PUT",
+			"headers": "Accept: application/json\nX-M2M-RI: 1bhgjh2345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n    \"m2m:smd\" : {\n        \"lbl\" : [\"semantic_descriptor\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test/smd1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1bhgjh2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "b196c600-e0ac-13b7-3528-4755a851788b"
+		},
+		{
+			"id": "e4e878d6-9771-6417-f2c1-59f4976c949f",
+			"name": "Firmware mgmtObj DELETE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: asdtg43e5re\nX-M2M-Origin: SOrigin",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/fwr_mgo1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "asdtg43e5re"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "06cbe36d-a874-c714-82ff-ddeb75fbb703"
+		},
+		{
+			"id": "e4ee69d7-0ae8-34fb-2064-e198353259c7",
+			"name": "remoteCSE RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "Accept: application/json\nX-M2M-RI: 12345gfhgh\nX-M2M-Origin: SOrigin",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nCube?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12345gfhgh"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "e58e3c6b-c9c3-49d2-e792-7f91d4601383",
+			"name": "DeviceInfo mgmtObj DELETE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: asdtg43e5re\nX-M2M-Origin: SOrigin",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/dvi_mgo1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "asdtg43e5re"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "537b0616-6912-8fb3-f36f-39d7c853717d"
+		},
+		{
+			"id": "eaaecb56-9526-45e3-2696-e21cfed0f5c3",
+			"name": "LocationPolicy RETRIEVE with Result Content set to 1 (Attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "GET",
+			"headers": "X-M2M-RI: 12345fasesdfdsf\nX-M2M-Origin: S20170717074825768bp2l\nAccept: application/json",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/locply1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12345fasesdfdsf"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "390c7800-5eb0-1478-44e8-688a32ed36e2"
+		},
+		{
+			"id": "f107d051-41f5-e848-4b82-c65cfb4ad9b7",
+			"name": "remoteCSE CREATE with Result Content set to 3 (Hierarchical address + attributes)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsfdsa45\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=16",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=3",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "3"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsfdsa45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=16"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "f2d4ff9a-5059-13fc-716f-05548e7b38d4",
+			"name": "Container CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 12aadftret345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json; ty=3",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:cnt\" : {\n    \"rn\": \"cnt_test\",\n      \"lbl\": [\"API\"]\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "12aadftret345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json; ty=3"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		},
+		{
+			"id": "f44da74d-5f85-4bf6-d80a-dac32aae288b",
+			"name": "TimeSeries DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 123466giygi5\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123466giygi5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "46866889-5604-5833-cec6-3b007461f116"
+		},
+		{
+			"id": "f5c94ea4-2264-732b-7a05-3fe72b3e1746",
+			"name": "TimeSeriesInstance CREATE",
+			"description": "Equivalent to timeSeriesInstance CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 1kvuytcuijvh2345\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=30",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:tsi\" : {\n\t    \"dgt\": \"20170717T123456\",\n\t    \"con\":\"DATA_TACK\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}/ae_test/ts1?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1kvuytcuijvh2345"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=30"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "3d6e3370-059d-e6f7-ea10-2809d546f418"
+		},
+		{
+			"id": "f5e63307-0f3c-d09b-6c94-79ca881965c0",
+			"name": "remoteCSE CREATE",
+			"description": "Equivalent to remoteCSE CREATE with Result Content set to 1 (Attributes)",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsfdsa45\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=16",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube_rose\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "1"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsfdsa45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=16"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "f796424e-74da-d65d-41d9-ba1de4695e94",
+			"name": "Battery mgmtObj DELETE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: auyisdtg43e5re\nX-M2M-Origin: SOrigin",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/nod1/bat_mgo1?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "auyisdtg43e5re"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "367f9833-2b5b-b895-2e9b-72f73d9430e2"
+		},
+		{
+			"id": "f7f364f5-d9b7-af0e-01cd-e47c4d445048",
+			"name": "AE DELETE with Result content set to 0 (nothing)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 1234sdafadsfgtrfg5\nX-M2M-Origin: S20170713200332320Bdfl",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "1234sdafadsfgtrfg5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170713200332320Bdfl"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "eff95f1b-1929-ada0-0c22-8b74c4afbf7e"
+		},
+		{
+			"id": "f8120e22-00db-d184-bde7-b2fda56e44f4",
+			"name": "Battery mgmtObj CREATE",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 45tytyjhhj5\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=13",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n\t\"m2m:bat\": {\n\t\t\"rn\": \"bat_mgo2\",\n\t\t\"lbl\": [\"battery\"],\n\t\t\"mgd\": 1006,\n\t\t\"btl\": 99,\n\t\t\"bts\": 1\n\t}\n}",
+			"url": "{{mp_url}}/{{cb}}/nod1",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "45tytyjhhj5"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=13"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "367f9833-2b5b-b895-2e9b-72f73d9430e2"
+		},
+		{
+			"id": "facf3930-ddf4-5c6b-9e63-68c5f6e46cf7",
+			"name": "LocationPolicy CREATE with Result Content set to 2 (Hieararchical address)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "X-M2M-RI: 12345fsdfdsf\nX-M2M-Origin: S20170717074825768bp2l\nContent-Type: application/json;ty=10\nAccept: application/json",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "\n{\n\t\"m2m:lcp\" : {\n\t\t\"rn\": \"locply1\",\n\t    \"los\": 2\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "2"
+				}
+			],
+			"headerData": [
+				{
+					"key": "X-M2M-RI",
+					"value": "12345fsdfdsf"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=10"
+				},
+				{
+					"key": "Accept",
+					"value": "application/json"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "390c7800-5eb0-1478-44e8-688a32ed36e2"
+		},
+		{
+			"id": "fe9b0b8a-5d01-801e-d184-55415a93c504",
+			"name": "remoteCSE CREATE with Result Content set to 0 (NOTHING)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "POST",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dsfdsa45\nX-M2M-Origin: SOrigin\nContent-Type: application/json;ty=16",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\n  \"m2m:csr\" : {\n      \"rn\": \"nCube_rose\",\n      \"csi\": \"/nCube\",\n      \"poa\":[\"http://192.168.0.105:7579\"],\n      \"rr\":true,\n      \"cb\":\"//yt.rosemary.com/nCube\"\n    }\n}\n",
+			"url": "{{mp_url}}/{{cb}}?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dsfdsa45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "SOrigin"
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json;ty=16"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "8940d8a5-74f3-e708-1f02-5c189ab8120d"
+		},
+		{
+			"id": "feb46852-6839-c6bd-140c-b0dfb8961508",
+			"name": "Container DELETE with Result content set to 0 (nothing)",
+			"description": "",
+			"collectionId": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"method": "DELETE",
+			"headers": "Accept: application/json\nX-M2M-RI: 123dfd45\nX-M2M-Origin: S20170717074825768bp2l",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{mp_url}}/{{cb}}/ae_test/cnt_test?rcn=0",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "rcn",
+					"value": "0"
+				}
+			],
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json"
+				},
+				{
+					"key": "X-M2M-RI",
+					"value": "123dfd45"
+				},
+				{
+					"key": "X-M2M-Origin",
+					"value": "S20170717074825768bp2l"
+				}
+			],
+			"collection_id": "4822f088-e7a7-1b52-0056-cfca78c358c1",
+			"folder": "c011281b-61ab-2589-fb38-6b285659a9bd"
+		}
+	]
+}
