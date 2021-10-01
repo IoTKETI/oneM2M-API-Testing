@@ -1,0 +1,2062 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Mobius-release2 (json)",
+		"_postman_id": "e9e474c6-b77d-998d-358c-0e268d0c055a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "cb 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ae 생성",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"pm.environment.set(\"aei\", jsonData[\"m2m:ae\"].aei);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "{{mp_url}}/{{cb}}",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345",
+						"description": ""
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json;ty=2",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:ae\" : {\n    \"rn\": \"test_flexContainer\",\n      \"api\": \"0.2.481.2.0001.001.000111\",\n      \"lbl\": [\"key1\", \"key2\"],\n      \"rr\": true,\n      \"poa\": [\"http://203.254.173.104:9727\"]\n    }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ae 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ae 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:ae\": {\n    \"lbl\": [\"justin\", \"justin\"]\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ae 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "Superman"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cnt 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "{{aei}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=3"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:cnt\": {\n    \"rn\": \"ss\",\n    \"lbl\": [\"ss\"],\n    \"mbs\": 16384\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cnt 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/ss",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cnt 조회 copy",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/ss",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cnt 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/ss",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:cnt\": {\n    \"lbl\": [\"key1\", \"key2\"],\n    \"mbs\": 16384\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cnt 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/ss",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "locale",
+						"value": "ko"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "{{aei}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cin 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/keti_parking/702c1ffffe4a2c7b/up",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345",
+						"description": ""
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json;ty=4",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"m2m:cin\": {\n        \"con\": {\n            \"opcode\": \"event\",\n            \"device_type\": \"Radar\",\n            \"parking\": \"occupied\",\n            \"battery\": 100,\n            \"device_info\": \"normal\",\n            \"rssi\": 163,\n            \"snr\": 30,\n            \"radar_info\": \"parking_event\",\n            \"check_cycle\": 15\n        }\n    }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cin 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/ss/la",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "cin 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/ss/latest",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sub 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=23"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:sub\": {\n    \"rn\": \"sub1\",\n    \"enc\": {\n      \"net\": [3]\n    },\n    \"nu\": [\"//keti.re.kr/Mobius/Mobius/justin\"],\n    \"exc\": 10\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sub 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ae-edu0/cnt-led/sub-ctrl2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sub 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/sub1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:sub\": {\n    \"lbl\": [\"VALUE_1\"]\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sub 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/sub1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sgn 생성 (to CSE)",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:sgn\": {\n    \"sur\":\"/Mobius/justin/sub1\",\n    \"nev\": {\n      \"net\":\"3\",\n      \"rep\": {\n        \"m2m:sub\": {\n          \"rn\":\"sub1\",\n          \"ty\":23,\n          \"pi\":\"S20180321082320231OQbI\",\n          \"ri\":\"rymb4tqJqM\",\n          \"ct\":\"20180321T083448\",\n          \"et\":\"20210321T083448\",\n          \"lt\":\"20180321T083448\",\n          \"nu\":[\"Mobius/justin\"],\n          \"enc\":{\n            \"net\":[\n              3\n              ]\n          },\n          \"exc\":10,\n          \"nct\":2,\n          \"cr\":\"SOrigin\"\n        }\n      }\n    }\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sgn 생성 (to AE directly)",
+			"request": {
+				"url": "http://203.254.173.104:9727",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"m2m:sgn\":{\"vrq\":true,\"cr\":\"C_AE_ID_STEM_1\",\"sur\":\"r1V2pDVD5G\",\"nev\":{\"net\":1,\"rep\":{\"m2m:sub\":{\"rn\":\"MySubscriptionResource\",\"ty\":23,\"pi\":\"C_AE_ID_STEM_1\",\"ri\":\"r1V2pDVD5G\",\"ct\":\"20180327T031723\",\"et\":\"20210327T031723\",\"lt\":\"20180327T031723\",\"nu\":[\"Mobius/MyAe2\"],\"enc\":{\"net\":[1]},\"nct\":2,\"cr\":\"C_AE_ID_STEM_1\"}}}}}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "csr 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=16"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:csr\": {\n    \"rn\":\"IN-CSE\",\n    \"csi\":\"CSE001\",\n    \"poa\":[\"http://192.168.1.28:8080\"],\n    \"rr\":true,\n    \"cb\":\"IN-CSE\"\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "csr 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/rosemary",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "locale",
+						"value": "ko"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "csr 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/rosemary",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "Sryeubi"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:csrrrr\": {\n    \"poa\": [\"http://203.254.173.104:7580/notification\", \"mqtt://203.253.128.151/rosemary\"]\n  }\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "csr 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/rosemary",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "locale",
+						"value": "ko"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "/0.2.481.1.2951864386"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "acp 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}",
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=1"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"m2m:acp\" : {\n        \"rn\" : \"acp_ryeubi\",\n        \"pv\" : {\n            \"acr\" : [{\n              \"acco\" : [],\n                \"acor\" : [\n                    \"justin\"\n                    ],\n                \"acop\" : \"59\"\n            }, \n            {\n                \"acor\" : [\n                    \"ryeubi\"\n                    ],\n                \"acop\" : \"63\"\n            }]\n        },\n        \"pvs\" : {\n            \"acr\" : [{\n              \"acco\" : [],\n                \"acor\" : [\n                    \"justin1\"\n                    ],\n                \"acop\" : \"59\"\n            }, \n            {\n                \"acor\" : [\n                    \"ryeubi\"\n                    ],\n                \"acop\" : \"63\"\n            }]\n        }\n    }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "acp 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/acp_ryeubi",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "ryeubi"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "acp 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/acp_ryeubi",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "ryeubi"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:acp\": {\n      \"pvs\": {\n          \"acr\": [\n            {\n                \"acor\": [\"Origin\", \"ryeubi\"],\n                \"acop\": 63\n        }\n      ]\n    },\n    \"lbl\": [\"acp_ryeubi\", \"key1\"]\n  }\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "acp 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ryeubi_acp",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "smd 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/flavia",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=24"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"m2m:smd\" : {\n        \"dsp\" : \"PD94bWwgdmVyc2lvbj0iMS4wIj8+DQogICAgICAgICAgPHJkZjpSREYgeG1sbnM9Imh0dHA6Ly93d3cub25lbTJtLm9yZy9vbnRvbG9neS9ob3VzZXNfdGVtcGVyYXR1cmVfZXhhbXBsZSMiDQogICAgICAgICAgICAgICB4bWw6YmFzZT0iaHR0cDovL3d3dy5vbmVtMm0ub3JnL29udG9sb2d5L2hvdXNlc190ZW1wZXJhdHVyZV9leGFtcGxlIg0KICAgICAgICAgICAgICAgeG1sbnM6dGVtcGVyYXR1cmVfZXhhbXBsZT0iaHR0cDovL3d3dy5vbmVtMm0ub3JnL29udG9sb2d5L3RlbXBlcmF0dXJlX2V4YW1wbGUjIg0KICAgICAgICAgICAgICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIg0KICAgICAgICAgICAgICAgeG1sbnM6b3dsPSJodHRwOi8vd3d3LnczLm9yZy8yMDAyLzA3L293bCMiDQogICAgICAgICAgICAgICB4bWxuczp4bWw9Imh0dHA6Ly93d3cudzMub3JnL1hNTC8xOTk4L25hbWVzcGFjZSINCiAgICAgICAgICAgICAgIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEjIg0KICAgICAgICAgICAgICAgeG1sbnM6cmRmcz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wMS9yZGYtc2NoZW1hIyI+DQoNCiAgICAgICAgICAgICAgPG93bDpOYW1lZEluZGl2aWR1YWwgcmRmOmFib3V0PSJodHRwOi8vd3d3Lm9uZW0ybS5vcmcvb250b2xvZ3kvaG91c2VzX3RlbXBlcmF0dXJlX2V4YW1wbGUjSG91c2UxIj4NCiAgICAgICAgICAgICAgICAgIDxyZGY6dHlwZSByZGY6cmVzb3VyY2U9Imh0dHA6Ly93d3cub25lbTJtLm9yZy9vbnRvbG9neS90ZW1wZXJhdHVyZV9leGFtcGxlI0hvdXNlIi8+DQogICAgICAgICAgICAgICAgICA8dGVtcGVyYXR1cmVfZXhhbXBsZTpoYXNJbmRvb3JUZW1wZXJhdHVyZSByZGY6cmVzb3VyY2U9Imh0dHA6Ly93d3cub25lbTJtLm9yZy9vbnRvbG9neS9ob3VzZXNfdGVtcGVyYXR1cmVfZXhhbXBsZSNJbmRvb3JUZW1wUHJvcGVydHkxIi8+DQogICAgICAgICAgICAgIDwvb3dsOk5hbWVkSW5kaXZpZHVhbD4NCg0KICAgICAgICAgICAgICA8b3dsOk5hbWVkSW5kaXZpZHVhbCByZGY6YWJvdXQ9Imh0dHA6Ly93d3cub25lbTJtLm9yZy9vbnRvbG9neS9ob3VzZXNfdGVtcGVyYXR1cmVfZXhhbXBsZSNJbmRvb3JUZW1wUHJvcGVydHkxIj4NCiAgICAgICAgICAgICAgICAgIDxyZGY6dHlwZSByZGY6cmVzb3VyY2U9Imh0dHA6Ly93d3cub25lbTJtLm9yZy9vbnRvbG9neS90ZW1wZXJhdHVyZV9leGFtcGxlI1RlbXBlcmF0dXJlUHJvcGVydHkiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICA8dGVtcGVyYXR1cmVfZXhhbXBsZTpoYXNEYXRhdHlwZT54c2Q6aW50PC90ZW1wZXJhdHVyZV9leGFtcGxlOmhhc0RhdGF0eXBlPg0KICAgICAgICAgICAgICAgIDx0ZW1wZXJhdHVyZV9leGFtcGxlOmhhc1VuaXQgcmRmOmRhdGF0eXBlPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSNzdHJpbmciPkZhaHJlbmhlaXQ8L3RlbXBlcmF0dXJlX2V4YW1wbGU6aGFzVW5pdD4NCiAgICAgICAgICAgICAgICA8dGVtcGVyYXR1cmVfZXhhbXBsZTp2YWx1ZUlzU3RvcmVkSW4+aHR0cDovLyBpbi5wcm92aWRlci5jb206NzU3OS9zZXJ2ZXIvdGVtcHNlbnNvcmFlMS90ZW1wZXJhdHVyZS9sYXRlc3Q8L3RlbXBlcmF0dXJlX2V4YW1wbGU6dmFsdWVJc1N0b3JlZEluPg0KICAgICAgICAgICAgICA8L293bDpOYW1lZEluZGl2aWR1YWw+DQoNCiAgICAgICAgICAgICAgPG93bDpOYW1lZEluZGl2aWR1YWwgcmRmOmFib3V0PSJodHRwOi8vd3d3Lm9uZW0ybS5vcmcvb250b2xvZ3kvaG91c2VzX3RlbXBlcmF0dXJlX2V4YW1wbGUjSW5kb29yVGVtcFNlbnNvcjEiPg0KICAgICAgICAgICAgICAgICAgPHJkZjp0eXBlIHJkZjpyZXNvdXJjZT0iaHR0cDovL3d3dy5vbmVtMm0ub3JnL29udG9sb2d5L3RlbXBlcmF0dXJlX2V4YW1wbGUjVGVtcGVyYXR1cmVTZW5zb3IiLz4NCiAgICAgICAgICAgICAgICAgIDx0ZW1wZXJhdHVyZV9leGFtcGxlOmhhc1RlbXBlcmF0dXJlTWVhc3VyaW5nRnVuY3Rpb24gcmRmOnJlc291cmNlPSJodHRwOi8vd3d3Lm9uZW0ybS5vcmcvb250b2xvZ3kvaG91c2VzX3RlbXBlcmF0dXJlX2V4YW1wbGUjVGVtcEZ1bmN0aW9uMSIvPg0KICAgICAgICAgICAgICA8L293bDpOYW1lZEluZGl2aWR1YWw+DQoNCiAgICAgICAgICAgICAgPG93bDpOYW1lZEluZGl2aWR1YWwgcmRmOmFib3V0PSJodHRwOi8vd3d3Lm9uZW0ybS5vcmcvb250b2xvZ3kvaG91c2VzX3RlbXBlcmF0dXJlX2V4YW1wbGUjVGVtcEZ1bmN0aW9uMSI+DQogICAgICAgICAgICAgICAgICA8cmRmOnR5cGUgcmRmOnJlc291cmNlPSJodHRwOi8vd3d3Lm9uZW0ybS5vcmcvb250b2xvZ3kvdGVtcGVyYXR1cmVfZXhhbXBsZSNUZW1wZXJhdHVyZU1lYXN1cmluZ0Z1bmN0aW9uIi8+DQogICAgICAgICAgICAgICAgICA8dGVtcGVyYXR1cmVfZXhhbXBsZTptZWFzdXJlc1RlbXBlcmF0dXJlIHJkZjpyZXNvdXJjZT0iaHR0cDovL3d3dy5vbmVtMm0ub3JnL29udG9sb2d5L2hvdXNlc190ZW1wZXJhdHVyZV9leGFtcGxlI0luZG9vclRlbXBQcm9wZXJ0eTEiLz4NCiAgICAgICAgICAgICAgPC9vd2w6TmFtZWRJbmRpdmlkdWFsPg0KICAgICAgICAgIDwvcmRmOlJERj4=\",\n        \"dsp\" : \"http://test.org\",\n        \"rels\" : [\"http://test1.org\", \"http://test2.org\"]\n    }\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "smd 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/flavia/smd_3",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "smd 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/flavia/smd_1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"m2m:smd\" : {\n        \"dsp\" : \"this is test of semanticDescriptor           222222\"\n    }\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "smd 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/flavia/smd_1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ts 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/flavia",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=29"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:ts\": {\n    \"rn\": \"ts4\",\n      \"mdd\": true,\n      \"mddt\": 1,\n      \"lbl\": [\"timeSeries_label\"]\n    }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ts 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ryeubi/ts1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ts 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ryeubi/ts1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "/0.2.481.1.21160310105204806"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:ts xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <lbl>heartbeat1</lbl>\n    <mddt>1</mddt>\n</m2m:ts>"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ts 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ryeubi/ts1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tsi 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ryeubi/ts1",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "/0.2.481.1.21160310105204806"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+xml; ty=26"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:tsi xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <dgt>20160308170316</dgt>\n    <con>t</con>\n</m2m:tsi>"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tsi 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ryeubi/ts1/latest",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "/0.2.481.1.21160310105204806"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tsi 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/ryeubi/ts1/tsi-201603080826318763ncG",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "lcp 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}",
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+xml; ty=10"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:lcp xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" rn=\"lcp1\">\n    <los>2</los>\n</m2m:lcp>"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "grp 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}",
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=9"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"m2m:grp\": {\n\t\t\"rn\": \"grp\",\n\t\t\"mnm\": 5,\n\t\t\"mid\": [\"/Mobius/edu6/co2\", \"/Mobius/air0/co2\"]\n\t}\n}\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "grp 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/grp1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "discovery",
+			"request": {
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/flavia?fu=1&smf=PREFIX%20temp%3A%20%3Chttp%3A%2F%2Fwww.onem2m.org%2Fontology%2Ftemperature_example%23%3E%0ASELECT%20%3Fsensor%0A%09WHERE%20%7B%20%3Fthing%20temp%3AhasIndoorTemperature%20%3Fproperty%20.%0A%3Fproperty%20temp%3AhasUnit%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22Fahrenheit%22%5E%5E%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23string%3E%20.%0A%20%20%20%20%20%20%20%20%20%3FtempFunction%20temp%3AmeasuresTemperature%20%3Fproperty%20.%0A%09%20%20%20%20%20%20%20%20%3Fsensor%20temp%3AhasTemperatureMeasuringFunction%20%3FtempFunction%20%0A%7D",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"flavia"
+					],
+					"query": [
+						{
+							"key": "fu",
+							"value": "1"
+						},
+						{
+							"key": "smf",
+							"value": "PREFIX%20temp%3A%20%3Chttp%3A%2F%2Fwww.onem2m.org%2Fontology%2Ftemperature_example%23%3E%0ASELECT%20%3Fsensor%0A%09WHERE%20%7B%20%3Fthing%20temp%3AhasIndoorTemperature%20%3Fproperty%20.%0A%3Fproperty%20temp%3AhasUnit%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22Fahrenheit%22%5E%5E%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23string%3E%20.%0A%20%20%20%20%20%20%20%20%20%3FtempFunction%20temp%3AmeasuresTemperature%20%3Fproperty%20.%0A%09%20%20%20%20%20%20%20%20%3Fsensor%20temp%3AhasTemperatureMeasuringFunction%20%3FtempFunction%20%0A%7D"
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "Sandwich"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "req 생성 (json): not supported",
+			"request": {
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}?rcn=3",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}"
+					],
+					"query": [
+						{
+							"key": "rcn",
+							"value": "3"
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=17"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:req\": {\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "req 변경 (json): not supported",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/ss",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:req\": {\n    \"lbl\": [\n      \"key1\", \"key2\"\n    ]\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mms 생성",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+xml; ty=27"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:mms xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" rn=\"mms-tt0\">\n    <soid>justin</soid>\n    <asd>rtmp://203.253.128.135:1126/live/mystream</asd>\n</m2m:mms>"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mms 조회",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/mms-tt0",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mms 변경",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/mms-tt0",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<m2m:mms xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <asd>rtmp://203.253.128.135:1126/live/mystream</asd>\n</m2m:mms>"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mms 삭제",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/justin/mms-tt0",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml"
+					},
+					{
+						"key": "locale",
+						"value": "ko"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create nod",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=14"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:nod\": {\n    \"rn\": \"nod-justin\",\n    \"ni\": \"node-0.2.481.1.12345\"\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve nod",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update nod",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:nod\": {\n    \"lbl\": [\"keti1\", \"keti2\"],\n    \"ni\": \"modify_nodeID\"\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete nod",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin2",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create mgo - fwr",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=13"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:fwr\": {\n    \"rn\": \"fwr-mgo1\",\n    \"lbl\": [\"key1\"],\n    \"mgd\": 1001,\n    \"vr\": \"1.0.0\",\n    \"fwnnam\": \"test\",\n    \"url\": \"http://203.253.128.151:7579/firmware\",\n    \"ud\": true\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve mgo - fwr",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/fwr-mgo",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update mgo - fwr",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/fwr-mgo",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:fwr\": {\n    \"lbl\": [\"key1\"],\n    \"vr\": \"1.0.0\",\n    \"fwnnam\": \"test2\",\n    \"url\": \"http://203.253.128.151:7579/firmware\",\n    \"ud\": true\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create mgo - bat",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=13"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:bat\": {\n    \"rn\": \"bat-mgo\",\n    \"lbl\": [\"key1\"],\n    \"mgd\": 1006,\n    \"btl\": 99,\n    \"bts\": 1\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve mgo - bat",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/bat-mgo",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update mgo - bat",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/bat-mgo",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:bat\": {\n    \"lbl\": [\"key1\"],\n    \"btl\": 99,\n    \"bts\": 1\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create mgo - dvi",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=13"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:dvi\": {\n    \"rn\": \"dvi-mgo\",\n    \"lbl\": [\"key2\"],\n    \"mgd\": 1007,\n    \"dbl\": \"test dvi\",\n    \"man\": \"keti\",\n    \"mod\": \"aqua\",\n    \"dty\": \"aqua system\",\n    \"fwv\": \"1.0.0\",\n    \"swv\": \"1.0.0\",\n    \"hwv\": \"1.0.0\"\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve mgo - dvi",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/dvi-mgo",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update mgo - dvi",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/dvi-mgo",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:dvi\": {\n    \"lbl\": [\"key2\"],\n    \"dbl\": \"test dvi\",\n    \"man\": \"keti\",\n    \"mod\": \"aqua\",\n    \"dty\": \"aqua system\",\n    \"fwv\": \"1.0.0\",\n    \"swv\": \"1.0.0\",\n    \"hwv\": \"1.0.0\"\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create mgo - dvc",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=13"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:dvc\": {\n    \"rn\": \"dvc-mgo\",\n    \"lbl\": [\"key3\"],\n    \"mgd\": 1008,\n    \"can\": \"test dvc\",\n    \"att\": true,\n    \"cas\": {\n      \"can\": \"http://203.253.128.151:7579/action\",\n      \"sus\": 1\n    },\n    \"cus\": true\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve mgo - dvc",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/dvc-mgo",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update mgo - dvc",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/dvc-mgo",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:dvc\": {\n    \"lbl\": [\"key3\"],\n    \"can\": \"test dvc\",\n    \"att\": true,\n    \"cas\": {\n      \"can\": \"http://203.253.128.151:7579/action\",\n      \"sus\": 1\n    },\n    \"cus\": true\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create mgo - rbo",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json; ty=13"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:rbo\": {\n    \"rn\": \"rbo-mgo2\",\n    \"lbl\": [\"key4\"],\n    \"mgd\": 1009,\n    \"rbo\": false\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve mgo - rbo",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/rbo-mgo1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update mgo - rbo",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/rbo-mgo1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "justin"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.onem2m-res+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"m2m:rbo\": {\n    \"lbl\": [\"key4\"],\n    \"rbo\": false\n  }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete mgo",
+			"request": {
+				"url": "{{mp_url}}/{{cb}}/nod-justin/rbo-mgo1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "SOrigin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
