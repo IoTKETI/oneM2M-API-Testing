@@ -64,7 +64,7 @@
 					},
 					{
 						"key": "X-M2M-Origin",
-						"value": "S",
+						"value": "Sparking",
 						"description": ""
 					},
 					{
@@ -75,7 +75,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"m2m:ae\" : {\n    \"rn\": \"test_flexContainer\",\n      \"api\": \"0.2.481.2.0001.001.000111\",\n      \"lbl\": [\"key1\", \"key2\"],\n      \"rr\": true,\n      \"poa\": [\"http://203.254.173.104:9727\"]\n    }\n}"
+					"raw": "{\n\t\"m2m:ae\" : {\n\t\t\"rn\": \"test_ae\",\n\t\t\"api\": \"0.2.481.2.0001.001.000111\",\n\t\t\"lbl\": [\"key1\", \"key2\"],\n\t\t\"rr\": true\n\t}\n}"
 				},
 				"description": ""
 			},
@@ -116,19 +116,23 @@
 				"header": [
 					{
 						"key": "Accept",
-						"value": "application/json"
+						"value": "application/json",
+						"description": ""
 					},
 					{
 						"key": "X-M2M-RI",
-						"value": "12345"
+						"value": "12345",
+						"description": ""
 					},
 					{
 						"key": "X-M2M-Origin",
-						"value": "justin"
+						"value": "justin",
+						"description": ""
 					},
 					{
 						"key": "Content-Type",
-						"value": "application/vnd.onem2m-res+json"
+						"value": "application/json",
+						"description": ""
 					}
 				],
 				"body": {
@@ -199,33 +203,6 @@
 		},
 		{
 			"name": "cnt 조회",
-			"request": {
-				"url": "{{mp_url}}/{{cb}}/justin/ss",
-				"method": "GET",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					},
-					{
-						"key": "X-M2M-RI",
-						"value": "12345"
-					},
-					{
-						"key": "X-M2M-Origin",
-						"value": "SOrigin"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "cnt 조회 copy",
 			"request": {
 				"url": "{{mp_url}}/{{cb}}/justin/ss",
 				"method": "GET",
